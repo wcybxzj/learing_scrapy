@@ -1,0 +1,24 @@
+创建:
+scrapy startproject mininova
+cd mininova
+scrapy genspider Mininova_spider mininova.org
+输出:
+scrapy crawl mininova -o scraped_data.json
+
+
+scrapy startproject tingshu520
+cd tingshu520
+scrapy genspider -t basic tingshu 520tingshu.com
+
+
+shell:
+scrapy shell 'http://www.520tingshu.com/video/?11751-0-6.html' --nolog
+from scrapy.selector import Selector
+sel = Selector(response)
+sel.xpath("//div[@class='tool']/a[7]/@href[1]").extract()
+
+
+3.scrapyd
+4.django+scrapy
+5.webkit
+7.过滤广告
