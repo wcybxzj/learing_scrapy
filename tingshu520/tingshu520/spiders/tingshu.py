@@ -18,7 +18,8 @@ class TingshuSpider(Spider):
     name = "tingshu"
     allowed_domains = ["520tingshu.com"]
     start_urls = (
-        'http://www.520tingshu.com/video/?11502-0-0.html'
+        #'http://www.520tingshu.com/video/?11502-0-0.html'
+        'http://www.520tingshu.com/video/?11239-0-0.html'
     )
 
     patt1 = r'<a title="(\S+)" href="(\S+)" style="color:red" target="_blank">(\S+)</a>'

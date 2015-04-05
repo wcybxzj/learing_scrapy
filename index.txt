@@ -2,14 +2,13 @@
 scrapy startproject mininova
 cd mininova
 scrapy genspider Mininova_spider mininova.org
+
 输出:
 scrapy crawl mininova -o scraped_data.json
-
 
 scrapy startproject tingshu520
 cd tingshu520
 scrapy genspider -t basic tingshu 520tingshu.com
-
 
 shell:
 scrapy shell 'http://www.520tingshu.com/video/?11751-0-6.html' --nolog
@@ -17,8 +16,46 @@ from scrapy.selector import Selector
 sel = Selector(response)
 sel.xpath("//div[@class='tool']/a[7]/@href[1]").extract()
 
+===============================scrapyd=========================================
+修改配置文件
+vim /Users/yangbingxi/py_www/learing_scrapy/tingshu520/scrapy.cfg:
+[settings]
+default = tingshu520.settings
+[deploy:local-target]
+url = http://127.0.0.1:6800/
+project = tingshu520
 
-3.scrapyd
+启动服务:
+cd /Users/yangbingxi/py_www/learing_scrapy/tingshu520
+scrapyd
+
+查看targets:
+scrapyd-deploy -l
+local-target         http://127.0.0.1:6800/
+
+部署:
+scrapyd-deploy local-target -p tingshu520
+Packing version 1428246452
+Deploying to project "tingshu520" in http://127.0.0.1:6800/addversion.json
+Server response (200):
+{"status": "ok", "project": "tingshu520", "version": "1428246452", "spiders": 1}
+
+查看:
+curl http://127.0.0.1:6800/listprojects.json
+
+调用服务: 初始化调用的参数,-d调用
+比如:
+curl http://127.0.0.1:6800/schedule.json -d project=tingshu520 -d spider=tingshu
+比如:
+curl http://127.0.0.1:6800/schedule.json -d project=projectX -d spider=spider2b -d session_id=33 -d seed_id=54 -d seed_url=http://www.blah.com/
+
+继续查看:
+curl http://127.0.0.1:6800/listprojects.json?project=tingshu520
+
+终止工作:
+curl http://127.0.0.1:6800/cancel.json -d project=tingshu520 -d job=b04cfb0cdba711e4bd077cd1c3f840b3
+
+
 4.django+scrapy
 5.webkit
 7.过滤广告
