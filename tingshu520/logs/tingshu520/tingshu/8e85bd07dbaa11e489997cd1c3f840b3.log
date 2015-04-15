@@ -1,0 +1,41 @@
+2015-04-05 23:43:55+0800 [scrapy] INFO: Scrapy 0.24.5 started (bot: tingshu520)
+2015-04-05 23:43:55+0800 [scrapy] INFO: Optional features available: ssl, http11, django
+2015-04-05 23:43:55+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'tingshu520.spiders', 'FEED_URI': 'items/tingshu520/tingshu/8e85bd07dbaa11e489997cd1c3f840b3.jl', 'SPIDER_MODULES': ['tingshu520.spiders'], 'BOT_NAME': 'tingshu520', 'DOWNLOAD_TIMEOUT': 600, 'USER_AGENT': 'wget', 'LOG_FILE': 'logs/tingshu520/tingshu/8e85bd07dbaa11e489997cd1c3f840b3.log'}
+2015-04-05 23:43:56+0800 [scrapy] INFO: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-04-05 23:43:56+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-04-05 23:43:56+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-04-05 23:43:56+0800 [scrapy] INFO: Enabled item pipelines: XmlySpiderFile, DataBasePipeline
+2015-04-05 23:43:56+0800 [tingshu] INFO: Spider opened
+2015-04-05 23:43:56+0800 [tingshu] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-04-05 23:43:56+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-04-05 23:43:56+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-04-05 23:43:56+0800 [tingshu] ERROR: Obtaining request from start requests
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/base.py", line 1192, in run
+	    self.mainLoop()
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+	    return self._func(*self._a, **self._kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/core/engine.py", line 112, in _next_request
+	    request = next(slot.start_requests)
+	  File "tingshu520/spiders/tingshu.py", line 30, in start_requests
+	    yield Request(url=self.start_urls, callback=self.next_parse)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/http/request/__init__.py", line 26, in __init__
+	    self._set_url(url)
+	  File "/usr/local/lib/python2.7/site-packages/scrapy/http/request/__init__.py", line 59, in _set_url
+	    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+	exceptions.TypeError: Request url must be str or unicode, got tuple:
+	
+2015-04-05 23:43:56+0800 [tingshu] INFO: Closing spider (finished)
+2015-04-05 23:43:56+0800 [tingshu] INFO: Dumping Scrapy stats:
+	{'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 4, 5, 15, 43, 56, 122934),
+	 'log_count/DEBUG': 2,
+	 'log_count/ERROR': 1,
+	 'log_count/INFO': 7,
+	 'start_time': datetime.datetime(2015, 4, 5, 15, 43, 56, 118883)}
+2015-04-05 23:43:56+0800 [tingshu] INFO: Spider closed (finished)

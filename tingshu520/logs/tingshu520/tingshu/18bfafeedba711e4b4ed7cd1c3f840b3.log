@@ -1,0 +1,6 @@
+2015-04-05 23:19:06+0800 [scrapy] INFO: Scrapy 0.24.5 started (bot: tingshu520)
+2015-04-05 23:19:06+0800 [scrapy] INFO: Optional features available: ssl, http11, django
+2015-04-05 23:19:06+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'tingshu520.spiders', 'FEED_URI': 'items/tingshu520/tingshu/18bfafeedba711e4b4ed7cd1c3f840b3.jl', 'SPIDER_MODULES': ['tingshu520.spiders'], 'BOT_NAME': 'tingshu520', 'DOWNLOAD_TIMEOUT': 600, 'USER_AGENT': 'wget', 'LOG_FILE': 'logs/tingshu520/tingshu/18bfafeedba711e4b4ed7cd1c3f840b3.log'}
+2015-04-05 23:19:06+0800 [scrapy] INFO: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-04-05 23:19:06+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-04-05 23:19:06+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware

@@ -1,0 +1,1279 @@
+2015-04-05 23:54:48+0800 [scrapy] INFO: Scrapy 0.24.5 started (bot: tingshu520)
+2015-04-05 23:54:48+0800 [scrapy] INFO: Optional features available: ssl, http11, django
+2015-04-05 23:54:48+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'tingshu520.spiders', 'FEED_URI': 'items/tingshu520/tingshu/13f48099dbac11e4b8e37cd1c3f840b3.jl', 'SPIDER_MODULES': ['tingshu520.spiders'], 'BOT_NAME': 'tingshu520', 'DOWNLOAD_TIMEOUT': 600, 'USER_AGENT': 'wget', 'LOG_FILE': 'logs/tingshu520/tingshu/13f48099dbac11e4b8e37cd1c3f840b3.log'}
+2015-04-05 23:54:48+0800 [scrapy] INFO: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-04-05 23:54:48+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-04-05 23:54:48+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-04-05 23:54:48+0800 [scrapy] INFO: Enabled item pipelines: XmlySpiderFile, DataBasePipeline
+2015-04-05 23:54:48+0800 [tingshu] INFO: Spider opened
+2015-04-05 23:54:48+0800 [tingshu] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-04-05 23:54:48+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-04-05 23:54:48+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-04-05 23:54:48+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/video/?11239-0-0.html> (referer: None) ['partial']
+2015-04-05 23:54:49+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-52.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:54:49+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-0.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:54:49+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-53.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:54:49+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-49.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:54:49+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-51.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:00+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-47.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:00+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-54.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:00+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-50.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:00+0800 [tingshu] DEBUG: Retrying <GET http://vr.tudou.com/v2proxy/v2?it=201025391> (failed 1 times): [<twisted.python.failure.Failure <class 'twisted.internet.error.ConnectionLost'>>]
+2015-04-05 23:55:00+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-48.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:01+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.12/f4v/75/201025375.h264_1.040002010053E19CAF814649C7B312D43A6BEC-583D-7953-9FDA-000236873956.f4v?key=24a0ffab83ee347e9a801855215ad40004d5d6b05b&playtype=2&tk=183835716345639308360777879&brt=2&bc=0&xid=040002010053E19CAF814649C7B312D43A6BEC-583D-7953-9FDA-000236873956&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4342&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873956&fi=0&sz=4457467> from <GET http://vr.tudou.com/v2proxy/v2?it=201025375>
+2015-04-05 23:55:01+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.91/f4v/75/201025775.h264_1.040002010053E19D4321B7F3EAD85C6EB186D4-1529-824D-F16E-000236874441.f4v?key=0bb59eaf59a94eb104f57155215ad40004d5d6b05b&playtype=2&tk=142042366779222494280852104&brt=2&bc=0&xid=040002010053E19D4321B7F3EAD85C6EB186D4-1529-824D-F16E-000236874441&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874441&fi=0&sz=4520617> from <GET http://vr.tudou.com/v2proxy/v2?it=201025775>
+2015-04-05 23:55:01+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-44.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:01+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-45.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:01+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-43.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:01+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-46.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:02+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.93/f4v/91/201025391.h264_1.040002010053E19CFB062181E17A3659C88EAE-947D-2AE2-FB51-000236874203.f4v?key=7be7682626d74b60c0d61c55215ad50004d5d6b05b&playtype=2&tk=183835826296802085970779009&brt=2&bc=0&xid=040002010053E19CFB062181E17A3659C88EAE-947D-2AE2-FB51-000236874203&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1236&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874203&fi=0&sz=3867762> from <GET http://vr.tudou.com/v2proxy/v2?it=201025391>
+2015-04-05 23:55:02+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.9.14/f4v/10/201025410.h264_1.040002010053E19CA6D85359884A97AAF204EC-61F1-24C9-C44C-000236873932.f4v?key=50130248e57a2b52491c5455215ad50004d5d6b05b&playtype=2&tk=183835738335871863890772972&brt=2&bc=0&xid=040002010053E19CA6D85359884A97AAF204EC-61F1-24C9-C44C-000236873932&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3585&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873932&fi=0&sz=3646925> from <GET http://vr.tudou.com/v2proxy/v2?it=201025410>
+2015-04-05 23:55:02+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.9.15/f4v/90/201025390.h264_1.040002010053E19C7C06BA1D701BE141705A46-4544-0D9E-EA7C-000236873806.f4v?key=e8768a1340b0e74d10eb3955215ad50004d5d6b05b&playtype=2&tk=183835804306569530450763737&brt=2&bc=0&xid=040002010053E19C7C06BA1D701BE141705A46-4544-0D9E-EA7C-000236873806&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3583&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873806&fi=0&sz=4234209> from <GET http://vr.tudou.com/v2proxy/v2?it=201025390>
+2015-04-05 23:55:02+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-41.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:02+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-40.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:02+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-42.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:02+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-73.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:03+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.15/f4v/20/201025420.h264_1.040002010053E19C6D47D4B49F92E361501392-DFF7-352B-7251-000236873774.f4v?key=be0117e03ffda6385b993c55215ad60004d5d6b05b&playtype=2&tk=183835760326104419420806718&brt=2&bc=0&xid=040002010053E19C6D47D4B49F92E361501392-DFF7-352B-7251-000236873774&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4343&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873774&fi=0&sz=3685808> from <GET http://vr.tudou.com/v2proxy/v2?it=201025420>
+2015-04-05 23:55:03+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.16/f4v/4/201025404.h264_1.040002010053E19C941A6653B06838C01EEC55-70AE-155A-2ACB-000236873873.f4v?key=4ca8fd974bdf3f8cf26db355215ad60004d5d6b05b&playtype=2&tk=143483485674632219740849944&brt=2&bc=0&xid=040002010053E19C941A6653B06838C01EEC55-70AE-155A-2ACB-000236873873&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4346&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873873&fi=0&sz=3679524> from <GET http://vr.tudou.com/v2proxy/v2?it=201025404>
+2015-04-05 23:55:03+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.15/f4v/11/201025411.h264_1.040002010053E19C78695CF7E7C33DB70802DC-0CC9-CD0E-0235-000236873795.f4v?key=bc9d93a39eac4f54893e4a55215ad60004d5d6b05b&playtype=2&tk=183835716345639308380777482&brt=2&bc=0&xid=040002010053E19C78695CF7E7C33DB70802DC-0CC9-CD0E-0235-000236873795&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4343&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873795&fi=0&sz=3767065> from <GET http://vr.tudou.com/v2proxy/v2?it=201025411>
+2015-04-05 23:55:03+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-70.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:03+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-72.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:03+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-71.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.17/f4v/29/201025429.h264_1.040002010053E19CCFC5E7C550BCA5310D32BF-07AF-3315-82A0-000236874062.f4v?key=7e3d49f07163ef0da8216e55215ad70004d5d6b05b&playtype=2&tk=183835749330988141670720384&brt=2&bc=0&xid=040002010053E19CCFC5E7C550BCA5310D32BF-07AF-3315-82A0-000236874062&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4345&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874062&fi=0&sz=4613880> from <GET http://vr.tudou.com/v2proxy/v2?it=201025429>
+2015-04-05 23:55:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.9.22/f4v/69/201025369.h264_1.040002010053E19C885FB6B6C81F39D5EE8A3D-8790-334B-F64E-000236873852.f4v?key=ac7567a292975048045ca755215ad70004d5d6b05b&playtype=2&tk=142762909734252940390851328&brt=2&bc=0&xid=040002010053E19C885FB6B6C81F39D5EE8A3D-8790-334B-F64E-000236873852&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3581&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873852&fi=0&sz=4360131> from <GET http://vr.tudou.com/v2proxy/v2?it=201025369>
+2015-04-05 23:55:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.17/f4v/46/201025446.h264_1.040002010053E19CB14DAC2E15ED90FEE2C754-5FF8-E9C4-83F1-000236873961.f4v?key=6e0686be899349dc48462355215ad70004d5d6b05b&playtype=2&tk=183835815301685808230782318&brt=2&bc=0&xid=040002010053E19CB14DAC2E15ED90FEE2C754-5FF8-E9C4-83F1-000236873961&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4345&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873961&fi=0&sz=4577976> from <GET http://vr.tudou.com/v2proxy/v2?it=201025446>
+2015-04-05 23:55:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.85/f4v/30/201025430.h264_1.040002010053E19CD1D480A98171C532CBDCCA-C47A-2E38-9838-000236874068.f4v?key=17a311c4e98be4e93b3cae55215adb0004d5d6b05b&playtype=2&tk=143483518659981053070848264&brt=2&bc=0&xid=040002010053E19CD1D480A98171C532CBDCCA-C47A-2E38-9838-000236874068&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1485&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874068&fi=0&sz=3711380> from <GET http://vr.tudou.com/v2proxy/v2?it=201025430>
+2015-04-05 23:55:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.21/f4v/92/201025492.h264_1.040002010053E19CEAA935A9A54523A4549F69-D5FE-BA1A-FD1C-000236874151.f4v?key=5c3b4d62b392c7f4a9477d55215adb0004d5d6b05b&playtype=2&tk=183835738335871863950774193&brt=2&bc=0&xid=040002010053E19CEAA935A9A54523A4549F69-D5FE-BA1A-FD1C-000236874151&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4340&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874151&fi=0&sz=3747749> from <GET http://vr.tudou.com/v2proxy/v2?it=201025492>
+2015-04-05 23:55:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.17/f4v/91/201025491.h264_1.040002010053E19CDE6ADBC62CFEEA6EE0AEF7-762F-6BC5-90FC-000236874110.f4v?key=238e72265f70ad5788142555215adb0004d5d6b05b&playtype=2&tk=144204094600360332430990323&brt=2&bc=0&xid=040002010053E19CDE6ADBC62CFEEA6EE0AEF7-762F-6BC5-90FC-000236874110&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4345&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874110&fi=0&sz=3704088> from <GET http://vr.tudou.com/v2proxy/v2?it=201025491>
+2015-04-05 23:55:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.13/f4v/93/201025493.h264_1.040002010053E19CDE2C9CD368587738918B7B-554C-8646-8BCB-000236874108.f4v?key=62ad96aa6c798ee322fb2d55215adb0004d5d6b05b&playtype=2&tk=183835749330988141710720833&brt=2&bc=0&xid=040002010053E19CDE2C9CD368587738918B7B-554C-8646-8BCB-000236874108&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4341&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874108&fi=0&sz=3651073> from <GET http://vr.tudou.com/v2proxy/v2?it=201025493>
+2015-04-05 23:55:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.22/f4v/16/201025516.h264_1.040002010053E19CF3E0B77866DF7A8BE73189-D512-20AA-E1EA-000236874185.f4v?key=07a8831fc031068551777a55215adb0004d5d6b05b&playtype=2&tk=143483485674632219790850508&brt=2&bc=0&xid=040002010053E19CF3E0B77866DF7A8BE73189-D512-20AA-E1EA-000236874185&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4338&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=null&itemid=236874185&fi=0&sz=3639578> from <GET http://vr.tudou.com/v2proxy/v2?it=201025516>
+2015-04-05 23:55:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.17/f4v/37/201025137.h264_1.040002010053E19D9DBBA34DD0063594C7CCAB-2D35-781A-B3E3-000236874673.f4v?key=dbcb689a9ced82e57741ff55215adb0004d5d6b05b&playtype=2&tk=183835749330988141710720834&brt=2&bc=0&xid=040002010053E19D9DBBA34DD0063594C7CCAB-2D35-781A-B3E3-000236874673&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4345&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874673&fi=0&sz=4467710> from <GET http://vr.tudou.com/v2proxy/v2?it=201025137>
+2015-04-05 23:55:13+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.12/f4v/75/201025375.h264_1.040002010053E19CAF814649C7B312D43A6BEC-583D-7953-9FDA-000236873956.f4v?key=24a0ffab83ee347e9a801855215ad40004d5d6b05b&playtype=2&tk=183835716345639308360777879&brt=2&bc=0&xid=040002010053E19CAF814649C7B312D43A6BEC-583D-7953-9FDA-000236873956&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4342&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873956&fi=0&sz=4457467> (referer: None)
+2015-04-05 23:55:13+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025375> referred in <None>
+2015-04-05 23:55:13+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025375',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c54\u96c6'],
+	 'sound_id': u'54',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/eee62a2d1714cea4d740ad49fe721b8671582738/v2?it=201025375',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:55:13+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.93/f4v/53/201025153.h264_1.040002010053E19D1B96BD0139FCF142274276-205B-2E40-B8B4-000236874331.f4v?key=7046679a1a3672cb309b3955215ae10004d5d6b05b&playtype=2&tk=143483485674632219850851191&brt=2&bc=0&xid=040002010053E19D1B96BD0139FCF142274276-205B-2E40-B8B4-000236874331&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1236&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874331&fi=0&sz=3773435> from <GET http://vr.tudou.com/v2proxy/v2?it=201025153>
+2015-04-05 23:55:13+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.86/f4v/38/201025138.h264_1.040002010053E19C1DA001D38834AB7AB3AE5B-D9D5-C9B1-522E-000236873516.f4v?key=e129d877727f842c49a0d755215ae10004d5d6b05b&playtype=2&tk=183835815301685808330694810&brt=2&bc=0&xid=040002010053E19C1DA001D38834AB7AB3AE5B-D9D5-C9B1-522E-000236873516&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1486&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873516&fi=0&sz=4451600> from <GET http://vr.tudou.com/v2proxy/v2?it=201025138>
+2015-04-05 23:55:13+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.93/f4v/39/201025139.h264_1.040002010053E19CCF47FDEE76AEFBEB64258D-48A6-27A7-C18D-000236874056.f4v?key=a09ec5c779debd7a6c436c55215ae10004d5d6b05b&playtype=2&tk=183835826296802086090755960&brt=2&bc=0&xid=040002010053E19CCF47FDEE76AEFBEB64258D-48A6-27A7-C18D-000236874056&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1236&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874056&fi=0&sz=3685470> from <GET http://vr.tudou.com/v2proxy/v2?it=201025139>
+2015-04-05 23:55:16+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.15/f4v/20/201025420.h264_1.040002010053E19C6D47D4B49F92E361501392-DFF7-352B-7251-000236873774.f4v?key=be0117e03ffda6385b993c55215ad60004d5d6b05b&playtype=2&tk=183835760326104419420806718&brt=2&bc=0&xid=040002010053E19C6D47D4B49F92E361501392-DFF7-352B-7251-000236873774&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4343&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873774&fi=0&sz=3685808> (referer: None)
+2015-04-05 23:55:16+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025420> referred in <None>
+2015-04-05 23:55:16+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025420',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c48\u96c6'],
+	 'sound_id': u'48',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/b9910d0c30d8d99da85a2c0556ebcb05dbd3b79f/v2?it=201025420',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:55:22+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.16/f4v/4/201025404.h264_1.040002010053E19C941A6653B06838C01EEC55-70AE-155A-2ACB-000236873873.f4v?key=4ca8fd974bdf3f8cf26db355215ad60004d5d6b05b&playtype=2&tk=143483485674632219740849944&brt=2&bc=0&xid=040002010053E19C941A6653B06838C01EEC55-70AE-155A-2ACB-000236873873&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4346&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873873&fi=0&sz=3679524> (referer: None)
+2015-04-05 23:55:22+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025404> referred in <None>
+2015-04-05 23:55:22+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025404',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c51\u96c6'],
+	 'sound_id': u'51',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/3cbb1124a52af7eab8ec55ec24e87deafcbd679c/v2?it=201025404',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:55:23+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.17/f4v/29/201025429.h264_1.040002010053E19CCFC5E7C550BCA5310D32BF-07AF-3315-82A0-000236874062.f4v?key=7e3d49f07163ef0da8216e55215ad70004d5d6b05b&playtype=2&tk=183835749330988141670720384&brt=2&bc=0&xid=040002010053E19CCFC5E7C550BCA5310D32BF-07AF-3315-82A0-000236874062&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4345&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874062&fi=0&sz=4613880> (referer: None)
+2015-04-05 23:55:23+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025429> referred in <None>
+2015-04-05 23:55:23+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025429',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c46\u96c6'],
+	 'sound_id': u'46',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/19a0cf6fcb7f96019b05dffcd49f42fe70d773ec/v2?it=201025429',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:55:23+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.15/f4v/11/201025411.h264_1.040002010053E19C78695CF7E7C33DB70802DC-0CC9-CD0E-0235-000236873795.f4v?key=bc9d93a39eac4f54893e4a55215ad60004d5d6b05b&playtype=2&tk=183835716345639308380777482&brt=2&bc=0&xid=040002010053E19C78695CF7E7C33DB70802DC-0CC9-CD0E-0235-000236873795&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4343&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873795&fi=0&sz=3767065> (referer: None)
+2015-04-05 23:55:23+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025411> referred in <None>
+2015-04-05 23:55:23+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025411',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c49\u96c6'],
+	 'sound_id': u'49',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/84855c316740545f201b1768e5a22011e2062a2a/v2?it=201025411',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:55:25+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-69.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:25+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-68.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:29+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.17/f4v/46/201025446.h264_1.040002010053E19CB14DAC2E15ED90FEE2C754-5FF8-E9C4-83F1-000236873961.f4v?key=6e0686be899349dc48462355215ad70004d5d6b05b&playtype=2&tk=183835815301685808230782318&brt=2&bc=0&xid=040002010053E19CB14DAC2E15ED90FEE2C754-5FF8-E9C4-83F1-000236873961&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4345&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873961&fi=0&sz=4577976> (referer: None)
+2015-04-05 23:55:29+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025446> referred in <None>
+2015-04-05 23:55:29+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025446',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c45\u96c6'],
+	 'sound_id': u'45',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/6acaaf69e1a751a6f107d5062a740bb50a52eab6/v2?it=201025446',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:55:31+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.93/f4v/91/201025391.h264_1.040002010053E19CFB062181E17A3659C88EAE-947D-2AE2-FB51-000236874203.f4v?key=7be7682626d74b60c0d61c55215ad50004d5d6b05b&playtype=2&tk=183835826296802085970779009&brt=2&bc=0&xid=040002010053E19CFB062181E17A3659C88EAE-947D-2AE2-FB51-000236874203&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1236&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874203&fi=0&sz=3867762> (referer: None)
+2015-04-05 23:55:31+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025391> referred in <None>
+2015-04-05 23:55:31+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025391',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c53\u96c6'],
+	 'sound_id': u'53',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/30807c1b9e84d3d9bd23b3a598ee8623bce527fd/v2?it=201025391',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:55:31+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-67.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:32+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-66.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:33+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.21/f4v/92/201025492.h264_1.040002010053E19CEAA935A9A54523A4549F69-D5FE-BA1A-FD1C-000236874151.f4v?key=5c3b4d62b392c7f4a9477d55215adb0004d5d6b05b&playtype=2&tk=183835738335871863950774193&brt=2&bc=0&xid=040002010053E19CEAA935A9A54523A4549F69-D5FE-BA1A-FD1C-000236874151&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4340&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874151&fi=0&sz=3747749> (referer: None)
+2015-04-05 23:55:33+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025492> referred in <None>
+2015-04-05 23:55:34+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-43.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025492',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c44\u96c6'],
+	 'sound_id': u'44',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/c8663baf8d8c2c41ed5d6afddb7afb3f26c87ee1/v2?it=201025492',
+	 'user_id': 123}
+2015-04-05 23:55:35+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.17/f4v/91/201025491.h264_1.040002010053E19CDE6ADBC62CFEEA6EE0AEF7-762F-6BC5-90FC-000236874110.f4v?key=238e72265f70ad5788142555215adb0004d5d6b05b&playtype=2&tk=144204094600360332430990323&brt=2&bc=0&xid=040002010053E19CDE6ADBC62CFEEA6EE0AEF7-762F-6BC5-90FC-000236874110&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4345&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874110&fi=0&sz=3704088> (referer: None)
+2015-04-05 23:55:35+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025491> referred in <None>
+2015-04-05 23:55:35+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-41.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025491',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c42\u96c6'],
+	 'sound_id': u'42',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/36d2d08221c7dcf1806a7d1e7d04e3a5dbb2517b/v2?it=201025491',
+	 'user_id': 123}
+2015-04-05 23:55:36+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-65.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:36+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-64.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:38+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.13/f4v/93/201025493.h264_1.040002010053E19CDE2C9CD368587738918B7B-554C-8646-8BCB-000236874108.f4v?key=62ad96aa6c798ee322fb2d55215adb0004d5d6b05b&playtype=2&tk=183835749330988141710720833&brt=2&bc=0&xid=040002010053E19CDE2C9CD368587738918B7B-554C-8646-8BCB-000236874108&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4341&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874108&fi=0&sz=3651073> (referer: None)
+2015-04-05 23:55:38+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025493> referred in <None>
+2015-04-05 23:55:38+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-42.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025493',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c43\u96c6'],
+	 'sound_id': u'43',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/0e92c279b9cbb0fe43c7894a9a11b0f01e4e6cb6/v2?it=201025493',
+	 'user_id': 123}
+2015-04-05 23:55:44+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.9.22/f4v/69/201025369.h264_1.040002010053E19C885FB6B6C81F39D5EE8A3D-8790-334B-F64E-000236873852.f4v?key=ac7567a292975048045ca755215ad70004d5d6b05b&playtype=2&tk=142762909734252940390851328&brt=2&bc=0&xid=040002010053E19C885FB6B6C81F39D5EE8A3D-8790-334B-F64E-000236873852&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3581&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873852&fi=0&sz=4360131> (referer: None)
+2015-04-05 23:55:44+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025369> referred in <None>
+2015-04-05 23:55:44+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025369',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c55\u96c6'],
+	 'sound_id': u'55',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/dd0c8712f74e7ca7718d16faed0a3f2a0e0c85ac/v2?it=201025369',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:55:44+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.22/f4v/16/201025516.h264_1.040002010053E19CF3E0B77866DF7A8BE73189-D512-20AA-E1EA-000236874185.f4v?key=07a8831fc031068551777a55215adb0004d5d6b05b&playtype=2&tk=143483485674632219790850508&brt=2&bc=0&xid=040002010053E19CF3E0B77866DF7A8BE73189-D512-20AA-E1EA-000236874185&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4338&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=null&itemid=236874185&fi=0&sz=3639578> (referer: None)
+2015-04-05 23:55:44+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025516> referred in <None>
+2015-04-05 23:55:44+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-40.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025516',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c41\u96c6'],
+	 'sound_id': u'41',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/643abcd840e5ca3c5a3e1c3b90746f1b245e6716/v2?it=201025516',
+	 'user_id': 123}
+2015-04-05 23:55:45+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.17/f4v/37/201025137.h264_1.040002010053E19D9DBBA34DD0063594C7CCAB-2D35-781A-B3E3-000236874673.f4v?key=dbcb689a9ced82e57741ff55215adb0004d5d6b05b&playtype=2&tk=183835749330988141710720834&brt=2&bc=0&xid=040002010053E19D9DBBA34DD0063594C7CCAB-2D35-781A-B3E3-000236874673&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4345&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874673&fi=0&sz=4467710> (referer: None)
+2015-04-05 23:55:45+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025137> referred in <None>
+2015-04-05 23:55:45+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-73.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025137',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c74\u96c6'],
+	 'sound_id': u'74',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/7ed425b2565dbae0b0c7419868852fee29552efa/v2?it=201025137',
+	 'user_id': 123}
+2015-04-05 23:55:45+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.88/f4v/52/201025152.h264_1.040002010053E19D28392A483763A514703016-9565-4837-8E8F-000236874360.f4v?key=9c8999ef16a8efcc31ed2c55215b010004d5d6b05b&playtype=2&tk=183835738335871864330778673&brt=2&bc=0&xid=040002010053E19D28392A483763A514703016-9565-4837-8E8F-000236874360&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2318&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874360&fi=0&sz=4418981> from <GET http://vr.tudou.com/v2proxy/v2?it=201025152>
+2015-04-05 23:55:45+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.91/f4v/54/201025154.h264_1.040002010053E19D6ABE596D23A88EE9E227A5-4BC9-46FB-54E8-000236874541.f4v?key=01adefead56345e29bb8ca55215b010004d5d6b05b&playtype=2&tk=142042344788989939210856956&brt=2&bc=0&xid=040002010053E19D6ABE596D23A88EE9E227A5-4BC9-46FB-54E8-000236874541&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874541&fi=0&sz=11269193> from <GET http://vr.tudou.com/v2proxy/v2?it=201025154>
+2015-04-05 23:55:45+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-62.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:45+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.86/f4v/74/201025174.h264_1.040002010053E19C17B1383749E8316F5A0252-EA1C-18CE-0093-000236873505.f4v?key=57a5cfc1861bbd099defd755215b010004d5d6b05b&playtype=2&tk=143483474679515942410843472&brt=2&bc=0&xid=040002010053E19C17B1383749E8316F5A0252-EA1C-18CE-0093-000236873505&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1486&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873505&fi=0&sz=3838318> from <GET http://vr.tudou.com/v2proxy/v2?it=201025174>
+2015-04-05 23:55:45+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-61.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:46+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-60.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:46+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.81/f4v/75/201025175.h264_1.040002010053E19C23B75F137C39BB32F82BCB-5632-30F3-F3F4-000236873542.f4v?key=ebd15b879fe46db159c53055215b010004d5d6b05b&playtype=2&tk=183835760326104419850803792&brt=2&bc=0&xid=040002010053E19C23B75F137C39BB32F82BCB-5632-30F3-F3F4-000236873542&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1481&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873542&fi=0&sz=3662059> from <GET http://vr.tudou.com/v2proxy/v2?it=201025175>
+2015-04-05 23:55:46+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-63.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:49+0800 [tingshu] INFO: Crawled 44 pages (at 44 pages/min), scraped 5 items (at 5 items/min)
+2015-04-05 23:55:49+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.85/f4v/84/201025184.h264_1.040002010053E19DA9EC0010CAE4AA11FD0192-769C-A42F-79DF-000236874743.f4v?key=9ab90d1bbbc967ab33153455215b050004d5d6b05b&playtype=2&tk=142762898739136663090850889&brt=2&bc=0&xid=040002010053E19DA9EC0010CAE4AA11FD0192-769C-A42F-79DF-000236874743&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1485&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874743&fi=0&sz=3764576> from <GET http://vr.tudou.com/v2proxy/v2?it=201025184>
+2015-04-05 23:55:49+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.81/f4v/95/201025195.h264_1.040002010053E19C23BFDFCD2A0C2DEA42B7E1-18A4-ADD0-79E0-000236873540.f4v?key=b521cc99339ec8771c63ae55215b050004d5d6b05b&playtype=2&tk=143483463684399664690837383&brt=2&bc=0&xid=040002010053E19C23BFDFCD2A0C2DEA42B7E1-18A4-ADD0-79E0-000236873540&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1481&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873540&fi=0&sz=3446249> from <GET http://vr.tudou.com/v2proxy/v2?it=201025195>
+2015-04-05 23:55:51+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.85/f4v/30/201025430.h264_1.040002010053E19CD1D480A98171C532CBDCCA-C47A-2E38-9838-000236874068.f4v?key=17a311c4e98be4e93b3cae55215adb0004d5d6b05b&playtype=2&tk=143483518659981053070848264&brt=2&bc=0&xid=040002010053E19CD1D480A98171C532CBDCCA-C47A-2E38-9838-000236874068&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1485&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874068&fi=0&sz=3711380> (referer: None)
+2015-04-05 23:55:51+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025430> referred in <None>
+2015-04-05 23:55:51+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025430',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c47\u96c6'],
+	 'sound_id': u'47',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/7e1c491d763d16004b39dfe06c3eb3b625839a87/v2?it=201025430',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:55:55+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.9.14/f4v/10/201025410.h264_1.040002010053E19CA6D85359884A97AAF204EC-61F1-24C9-C44C-000236873932.f4v?key=50130248e57a2b52491c5455215ad50004d5d6b05b&playtype=2&tk=183835738335871863890772972&brt=2&bc=0&xid=040002010053E19CA6D85359884A97AAF204EC-61F1-24C9-C44C-000236873932&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3585&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873932&fi=0&sz=3646925> (referer: None)
+2015-04-05 23:55:55+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025410> referred in <None>
+2015-04-05 23:55:55+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025410',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c50\u96c6'],
+	 'sound_id': u'50',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/ebac976f8d1bb674b3ad7e1fa1aba1bc8221c19e/v2?it=201025410',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:55:55+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://220.115.251.115/f4v/9/201025209.h264_1.040002010053E19C23BC697E5397AD9E8270B0-1DCC-D6D8-E220-000236873546.f4v?key=97b47908757160c2ec0a6d55215b0b0004d5d6b05b&playtype=2&tk=183835826296802086510765958&brt=2&bc=0&xid=040002010053E19C23BC697E5397AD9E8270B0-1DCC-D6D8-E220-000236873546&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1234&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=null&itemid=236873546&fi=0&sz=3555915> from <GET http://vr.tudou.com/v2proxy/v2?it=201025209>
+2015-04-05 23:55:55+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-59.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:55:56+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-58.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:02+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.9.15/f4v/90/201025390.h264_1.040002010053E19C7C06BA1D701BE141705A46-4544-0D9E-EA7C-000236873806.f4v?key=e8768a1340b0e74d10eb3955215ad50004d5d6b05b&playtype=2&tk=183835804306569530450763737&brt=2&bc=0&xid=040002010053E19C7C06BA1D701BE141705A46-4544-0D9E-EA7C-000236873806&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3583&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873806&fi=0&sz=4234209> (referer: None)
+2015-04-05 23:56:02+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025390> referred in <None>
+2015-04-05 23:56:02+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025390',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c52\u96c6'],
+	 'sound_id': u'52',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/76b6f24d5406ffbb5099264b47085ff5ffd089fa/v2?it=201025390',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:02+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.91/f4v/27/201025227.h264_1.040002010053E19C6D7DC763DA1804C6924FC5-8A4E-59AB-7363-000236873772.f4v?key=b99bf5e2a1096ebd7c6fde55215b120004d5d6b05b&playtype=2&tk=143483496669748498100848932&brt=2&bc=0&xid=040002010053E19C6D7DC763DA1804C6924FC5-8A4E-59AB-7363-000236873772&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873772&fi=0&sz=3406085> from <GET http://vr.tudou.com/v2proxy/v2?it=201025227>
+2015-04-05 23:56:06+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.91/f4v/75/201025775.h264_1.040002010053E19D4321B7F3EAD85C6EB186D4-1529-824D-F16E-000236874441.f4v?key=0bb59eaf59a94eb104f57155215ad40004d5d6b05b&playtype=2&tk=142042366779222494280852104&brt=2&bc=0&xid=040002010053E19D4321B7F3EAD85C6EB186D4-1529-824D-F16E-000236874441&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874441&fi=0&sz=4520617> (referer: None)
+2015-04-05 23:56:06+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025775> referred in <None>
+2015-04-05 23:56:06+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-0.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025775',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c1\u96c6'],
+	 'sound_id': u'1',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/6ff52a83dec2df1d2ddb433e3111fd16fc45eec9/v2?it=201025775',
+	 'user_id': 123}
+2015-04-05 23:56:06+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.86/f4v/32/201025232.h264_1.040002010053E19C79B7147622C254E18D9BA8-5931-C71A-68E8-000236873798.f4v?key=f87ab4f7cfa2696927190455215b160004d5d6b05b&playtype=2&tk=183835793311453253340709417&brt=2&bc=0&xid=040002010053E19C79B7147622C254E18D9BA8-5931-C71A-68E8-000236873798&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1486&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873798&fi=0&sz=3665266> from <GET http://vr.tudou.com/v2proxy/v2?it=201025232>
+2015-04-05 23:56:06+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.92/f4v/96/201025196.h264_1.040002010053E19C2D669DA332ACAB2334595D-61C4-AC51-FEC1-000236873587.f4v?key=ab01d7f9e3c354d036995b55215b160004d5d6b05b&playtype=2&tk=183835826296802086620786719&brt=2&bc=0&xid=040002010053E19C2D669DA332ACAB2334595D-61C4-AC51-FEC1-000236873587&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1235&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873587&fi=0&sz=3671944> from <GET http://vr.tudou.com/v2proxy/v2?it=201025196>
+2015-04-05 23:56:06+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-57.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:07+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-56.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:19+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.85/f4v/84/201025184.h264_1.040002010053E19DA9EC0010CAE4AA11FD0192-769C-A42F-79DF-000236874743.f4v?key=9ab90d1bbbc967ab33153455215b050004d5d6b05b&playtype=2&tk=142762898739136663090850889&brt=2&bc=0&xid=040002010053E19DA9EC0010CAE4AA11FD0192-769C-A42F-79DF-000236874743&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1485&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874743&fi=0&sz=3764576> (referer: None)
+2015-04-05 23:56:19+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025184> referred in <None>
+2015-04-05 23:56:19+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025184',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c66\u96c6'],
+	 'sound_id': u'66',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/2ac5bcbc199b2d79afc58fcd9f463c806fb3b1df/v2?it=201025184',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:23+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.93/f4v/53/201025153.h264_1.040002010053E19D1B96BD0139FCF142274276-205B-2E40-B8B4-000236874331.f4v?key=7046679a1a3672cb309b3955215ae10004d5d6b05b&playtype=2&tk=143483485674632219850851191&brt=2&bc=0&xid=040002010053E19D1B96BD0139FCF142274276-205B-2E40-B8B4-000236874331&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1236&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874331&fi=0&sz=3773435> (referer: None)
+2015-04-05 23:56:23+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025153> referred in <None>
+2015-04-05 23:56:23+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025153',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c71\u96c6'],
+	 'sound_id': u'71',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/624e495a70b52050c703b1045fd43623c9ee38ad/v2?it=201025153',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:23+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-55.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:24+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-39.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:26+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.88/f4v/52/201025152.h264_1.040002010053E19D28392A483763A514703016-9565-4837-8E8F-000236874360.f4v?key=9c8999ef16a8efcc31ed2c55215b010004d5d6b05b&playtype=2&tk=183835738335871864330778673&brt=2&bc=0&xid=040002010053E19D28392A483763A514703016-9565-4837-8E8F-000236874360&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2318&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874360&fi=0&sz=4418981> (referer: None)
+2015-04-05 23:56:26+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025152> referred in <None>
+2015-04-05 23:56:26+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025152',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c70\u96c6'],
+	 'sound_id': u'70',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/a1f2d8e73441a171d7cdd3b59b3b2631d1c9f19c/v2?it=201025152',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:26+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.86/f4v/33/201025233.h264_1.040002010053E19C87191A655DB01E7D0155D3-3FAA-2627-FFE4-000236873848.f4v?key=8173efd78c5965bf8c6faf55215b2a0004d5d6b05b&playtype=2&tk=183835782316336975780781370&brt=2&bc=0&xid=040002010053E19C87191A655DB01E7D0155D3-3FAA-2627-FFE4-000236873848&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1486&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873848&fi=0&sz=3651827> from <GET http://vr.tudou.com/v2proxy/v2?it=201025233>
+2015-04-05 23:56:26+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.21/f4v/35/201025335.h264_1.040002010053E19C967887082447D07943EFFF-A807-4001-65B9-000236873877.f4v?key=ce6f706952e704eb9964df55215b2a0004d5d6b05b&playtype=2&tk=142042322798757384100863027&brt=2&bc=0&xid=040002010053E19C967887082447D07943EFFF-A807-4001-65B9-000236873877&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4340&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873877&fi=0&sz=3586954> from <GET http://vr.tudou.com/v2proxy/v2?it=201025335>
+2015-04-05 23:56:37+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.86/f4v/74/201025174.h264_1.040002010053E19C17B1383749E8316F5A0252-EA1C-18CE-0093-000236873505.f4v?key=57a5cfc1861bbd099defd755215b010004d5d6b05b&playtype=2&tk=143483474679515942410843472&brt=2&bc=0&xid=040002010053E19C17B1383749E8316F5A0252-EA1C-18CE-0093-000236873505&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1486&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873505&fi=0&sz=3838318> (referer: None)
+2015-04-05 23:56:37+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025174> referred in <None>
+2015-04-05 23:56:37+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025174',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c68\u96c6'],
+	 'sound_id': u'68',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/2da120cd28f9ed2eb1610768daa1561194eb0d44/v2?it=201025174',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:38+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.93/f4v/39/201025139.h264_1.040002010053E19CCF47FDEE76AEFBEB64258D-48A6-27A7-C18D-000236874056.f4v?key=a09ec5c779debd7a6c436c55215ae10004d5d6b05b&playtype=2&tk=183835826296802086090755960&brt=2&bc=0&xid=040002010053E19CCF47FDEE76AEFBEB64258D-48A6-27A7-C18D-000236874056&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1236&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874056&fi=0&sz=3685470> (referer: None)
+2015-04-05 23:56:38+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025139> referred in <None>
+2015-04-05 23:56:38+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025139',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c72\u96c6'],
+	 'sound_id': u'72',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/f7e041634c874214ecfe9ae49475f2d301a35f26/v2?it=201025139',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:38+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-38.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:40+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-36.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:41+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-37.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:48+0800 [tingshu] INFO: Crawled 62 pages (at 18 pages/min), scraped 6 items (at 1 items/min)
+2015-04-05 23:56:48+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.81/f4v/95/201025195.h264_1.040002010053E19C23BFDFCD2A0C2DEA42B7E1-18A4-ADD0-79E0-000236873540.f4v?key=b521cc99339ec8771c63ae55215b050004d5d6b05b&playtype=2&tk=143483463684399664690837383&brt=2&bc=0&xid=040002010053E19C23BFDFCD2A0C2DEA42B7E1-18A4-ADD0-79E0-000236873540&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1481&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873540&fi=0&sz=3446249> (referer: None)
+2015-04-05 23:56:48+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025195> referred in <None>
+2015-04-05 23:56:48+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025195',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c65\u96c6'],
+	 'sound_id': u'65',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/93fcf26fda6166fa200ae803f3d5dc1acc2bf643/v2?it=201025195',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:48+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.17/f4v/45/201025345.h264_1.040002010053E19C5E8265C565A495DE40EF39-D1B5-D425-984C-000236873717.f4v?key=dea3fba3231214c802b73955215b400004d5d6b05b&playtype=2&tk=142762898739136663680858030&brt=2&bc=0&xid=040002010053E19C5E8265C565A495DE40EF39-D1B5-D425-984C-000236873717&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4345&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873717&fi=0&sz=3564688> from <GET http://vr.tudou.com/v2proxy/v2?it=201025345>
+2015-04-05 23:56:48+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.90/f4v/46/201025346.h264_1.040002010053E19C96AD89BB59FA4378451619-CD57-02A5-A1D3-000236873879.f4v?key=5fd248e3fcb7c27514449755215b400004d5d6b05b&playtype=2&tk=183835804306569531520776547&brt=2&bc=0&xid=040002010053E19C96AD89BB59FA4378451619-CD57-02A5-A1D3-000236873879&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2320&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873879&fi=0&sz=3900155> from <GET http://vr.tudou.com/v2proxy/v2?it=201025346>
+2015-04-05 23:56:49+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.12/f4v/68/201025368.h264_1.040002010053E19C9396E7D60A3A163B64A24A-5871-014D-44CE-000236873869.f4v?key=29b00f03a72fa56d0989b055215b400004d5d6b05b&playtype=2&tk=183835749330988142720771352&brt=2&bc=0&xid=040002010053E19C9396E7D60A3A163B64A24A-5871-014D-44CE-000236873869&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4342&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873869&fi=0&sz=4593821> from <GET http://vr.tudou.com/v2proxy/v2?it=201025368>
+2015-04-05 23:56:49+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.19/f4v/15/201025515.h264_1.040002010053E19CF3F005B74E9BCE77E6DF22-DF73-7886-2B7C-000236874183.f4v?key=bd170af45de9f39b1a239e55215b410004d5d6b05b&playtype=2&tk=183835738335871864970768093&brt=2&bc=0&xid=040002010053E19CF3F005B74E9BCE77E6DF22-DF73-7886-2B7C-000236874183&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4348&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874183&fi=0&sz=4452054> from <GET http://vr.tudou.com/v2proxy/v2?it=201025515>
+2015-04-05 23:56:49+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.86/f4v/38/201025138.h264_1.040002010053E19C1DA001D38834AB7AB3AE5B-D9D5-C9B1-522E-000236873516.f4v?key=e129d877727f842c49a0d755215ae10004d5d6b05b&playtype=2&tk=183835815301685808330694810&brt=2&bc=0&xid=040002010053E19C1DA001D38834AB7AB3AE5B-D9D5-C9B1-522E-000236873516&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1486&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873516&fi=0&sz=4451600> (referer: None)
+2015-04-05 23:56:49+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025138> referred in <None>
+2015-04-05 23:56:49+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025138',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c73\u96c6'],
+	 'sound_id': u'73',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/a7d3729900d172646b0a19b0235b9026f4864af2/v2?it=201025138',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:49+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-35.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:50+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-34.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:53+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.91/f4v/27/201025227.h264_1.040002010053E19C6D7DC763DA1804C6924FC5-8A4E-59AB-7363-000236873772.f4v?key=b99bf5e2a1096ebd7c6fde55215b120004d5d6b05b&playtype=2&tk=143483496669748498100848932&brt=2&bc=0&xid=040002010053E19C6D7DC763DA1804C6924FC5-8A4E-59AB-7363-000236873772&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873772&fi=0&sz=3406085> (referer: None)
+2015-04-05 23:56:53+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025227> referred in <None>
+2015-04-05 23:56:53+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025227',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c62\u96c6'],
+	 'sound_id': u'62',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/12ec68dd875643a9780d84a5deff20cc603452e8/v2?it=201025227',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:53+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.21/f4v/14/201025514.h264_1.040002010053E19CF3DCB1A592DEAC1AB9E5D0-4DCD-5DE8-6A00-000236874181.f4v?key=083f7501556d3001f71cdc55215b450004d5d6b05b&playtype=2&tk=144204083605244055730996961&brt=2&bc=0&xid=040002010053E19CF3DCB1A592DEAC1AB9E5D0-4DCD-5DE8-6A00-000236874181&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4340&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874181&fi=0&sz=4384179> from <GET http://vr.tudou.com/v2proxy/v2?it=201025514>
+2015-04-05 23:56:53+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.90/f4v/45/201025545.h264_1.040002010053E19D453BCC663D11A754BDBEF8-3F87-805F-8AA4-000236874447.f4v?key=628bec9ead963217197deb55215b450004d5d6b05b&playtype=2&tk=183835749330988142770733557&brt=2&bc=0&xid=040002010053E19D453BCC663D11A754BDBEF8-3F87-805F-8AA4-000236874447&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2320&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874447&fi=0&sz=4463904> from <GET http://vr.tudou.com/v2proxy/v2?it=201025545>
+2015-04-05 23:56:54+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.16/f4v/36/201025536.h264_1.040002010053E19CE92A43F470E2500D4D604A-051D-6CF8-F2C1-000236874147.f4v?key=48844697b8f55c24efbe7755215b460004d5d6b05b&playtype=2&tk=142762909734252941500864545&brt=2&bc=0&xid=040002010053E19CE92A43F470E2500D4D604A-051D-6CF8-F2C1-000236874147&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4346&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874147&fi=0&sz=4463220> from <GET http://vr.tudou.com/v2proxy/v2?it=201025536>
+2015-04-05 23:56:55+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.21/f4v/35/201025335.h264_1.040002010053E19C967887082447D07943EFFF-A807-4001-65B9-000236873877.f4v?key=ce6f706952e704eb9964df55215b2a0004d5d6b05b&playtype=2&tk=142042322798757384100863027&brt=2&bc=0&xid=040002010053E19C967887082447D07943EFFF-A807-4001-65B9-000236873877&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4340&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873877&fi=0&sz=3586954> (referer: None)
+2015-04-05 23:56:55+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025335> referred in <None>
+2015-04-05 23:56:55+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025335',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c59\u96c6'],
+	 'sound_id': u'59',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/c387aeba1ab2a046e16910a251b946951f43a02f/v2?it=201025335',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:55+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-33.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:56:59+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.91/f4v/54/201025154.h264_1.040002010053E19D6ABE596D23A88EE9E227A5-4BC9-46FB-54E8-000236874541.f4v?key=01adefead56345e29bb8ca55215b010004d5d6b05b&playtype=2&tk=142042344788989939210856956&brt=2&bc=0&xid=040002010053E19D6ABE596D23A88EE9E227A5-4BC9-46FB-54E8-000236874541&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874541&fi=0&sz=11269193> (referer: None)
+2015-04-05 23:56:59+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025154> referred in <None>
+2015-04-05 23:56:59+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025154',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c69\u96c6'],
+	 'sound_id': u'69',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/a97b998da71cbd273b817a87fdf225a889222c76/v2?it=201025154',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:56:59+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-32.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:01+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-31.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:02+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.17/f4v/45/201025345.h264_1.040002010053E19C5E8265C565A495DE40EF39-D1B5-D425-984C-000236873717.f4v?key=dea3fba3231214c802b73955215b400004d5d6b05b&playtype=2&tk=142762898739136663680858030&brt=2&bc=0&xid=040002010053E19C5E8265C565A495DE40EF39-D1B5-D425-984C-000236873717&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4345&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873717&fi=0&sz=3564688> (referer: None)
+2015-04-05 23:57:02+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025345> referred in <None>
+2015-04-05 23:57:02+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025345',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c58\u96c6'],
+	 'sound_id': u'58',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/cfbf55ce821c523e4299e32249a86983d3342fa5/v2?it=201025345',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:57:02+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.81/f4v/75/201025175.h264_1.040002010053E19C23B75F137C39BB32F82BCB-5632-30F3-F3F4-000236873542.f4v?key=ebd15b879fe46db159c53055215b010004d5d6b05b&playtype=2&tk=183835760326104419850803792&brt=2&bc=0&xid=040002010053E19C23B75F137C39BB32F82BCB-5632-30F3-F3F4-000236873542&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1481&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873542&fi=0&sz=3662059> (referer: None)
+2015-04-05 23:57:02+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025175> referred in <None>
+2015-04-05 23:57:02+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025175',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c67\u96c6'],
+	 'sound_id': u'67',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/7d9f3959f9601b845a0d9f775a3c9a71529695ab/v2?it=201025175',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:57:02+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.87/f4v/46/201025546.h264_1.040002010053E19DB4C6B1B37BBBF783F5935E-0519-4391-73CF-000236874762.f4v?key=d629b80b240b2f36532e3755215b4e0004d5d6b05b&playtype=2&tk=144204050619895222540002608&brt=2&bc=0&xid=040002010053E19DB4C6B1B37BBBF783F5935E-0519-4391-73CF-000236874762&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2317&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874762&fi=0&sz=4379414> from <GET http://vr.tudou.com/v2proxy/v2?it=201025546>
+2015-04-05 23:57:02+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.88/f4v/52/201025552.h264_1.040002010053E19DC5B41903B607A267FA23D6-4F78-50DF-D57E-000236874871.f4v?key=c9ed7d686e74a69c52514755215b4e0004d5d6b05b&playtype=2&tk=183835782316336976140773133&brt=2&bc=0&xid=040002010053E19DC5B41903B607A267FA23D6-4F78-50DF-D57E-000236874871&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2318&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874871&fi=0&sz=4517802> from <GET http://vr.tudou.com/v2proxy/v2?it=201025552>
+2015-04-05 23:57:03+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-30.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:03+0800 [tingshu] DEBUG: Crawled (200) <GET http://220.115.251.115/f4v/9/201025209.h264_1.040002010053E19C23BC697E5397AD9E8270B0-1DCC-D6D8-E220-000236873546.f4v?key=97b47908757160c2ec0a6d55215b0b0004d5d6b05b&playtype=2&tk=183835826296802086510765958&brt=2&bc=0&xid=040002010053E19C23BC697E5397AD9E8270B0-1DCC-D6D8-E220-000236873546&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1234&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=null&itemid=236873546&fi=0&sz=3555915> (referer: None)
+2015-04-05 23:57:03+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025209> referred in <None>
+2015-04-05 23:57:03+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025209',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c63\u96c6'],
+	 'sound_id': u'63',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/db3a434907e35f49664c04d5244af3d0171a6b30/v2?it=201025209',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:57:04+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-29.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:07+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-28.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:12+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.19/f4v/15/201025515.h264_1.040002010053E19CF3F005B74E9BCE77E6DF22-DF73-7886-2B7C-000236874183.f4v?key=bd170af45de9f39b1a239e55215b410004d5d6b05b&playtype=2&tk=183835738335871864970768093&brt=2&bc=0&xid=040002010053E19CF3F005B74E9BCE77E6DF22-DF73-7886-2B7C-000236874183&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4348&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874183&fi=0&sz=4452054> (referer: None)
+2015-04-05 23:57:12+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025515> referred in <None>
+2015-04-05 23:57:12+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-39.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025515',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c40\u96c6'],
+	 'sound_id': u'40',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/46d7b918a7df73a263f9dd2b1db0beb2a85d078f/v2?it=201025515',
+	 'user_id': 123}
+2015-04-05 23:57:13+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.12/f4v/68/201025368.h264_1.040002010053E19C9396E7D60A3A163B64A24A-5871-014D-44CE-000236873869.f4v?key=29b00f03a72fa56d0989b055215b400004d5d6b05b&playtype=2&tk=183835749330988142720771352&brt=2&bc=0&xid=040002010053E19C9396E7D60A3A163B64A24A-5871-014D-44CE-000236873869&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4342&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873869&fi=0&sz=4593821> (referer: None)
+2015-04-05 23:57:13+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025368> referred in <None>
+2015-04-05 23:57:13+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025368',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c56\u96c6'],
+	 'sound_id': u'56',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/2322f178a5e0542b22ab028a45c681b5694287eb/v2?it=201025368',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:57:13+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.87/f4v/63/201025563.h264_1.040002010053E19D99178E9B199E925153F7AA-CC9D-59CA-5251-000236874658.f4v?key=16ed1772b9dd6d58db57b755215b590004d5d6b05b&playtype=2&tk=183835793311453254010717467&brt=2&bc=0&xid=040002010053E19D99178E9B199E925153F7AA-CC9D-59CA-5251-000236874658&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2317&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874658&fi=0&sz=4337457> from <GET http://vr.tudou.com/v2proxy/v2?it=201025563>
+2015-04-05 23:57:13+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.83/f4v/62/201025562.h264_1.040002010053E19D5428D96444B046F59E0734-D821-3538-9BD0-000236874497.f4v?key=97627adc01b2205d2160b155215b590004d5d6b05b&playtype=2&tk=183835716345639309690793811&brt=2&bc=0&xid=040002010053E19D5428D96444B046F59E0734-D821-3538-9BD0-000236874497&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1483&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874497&fi=0&sz=4289157> from <GET http://vr.tudou.com/v2proxy/v2?it=201025562>
+2015-04-05 23:57:13+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.88/f4v/76/201025576.h264_1.040002010053E19DD7E8CC064624B5BC0A9F9C-4468-3B55-55AD-000236874898.f4v?key=5bb089a29167c7764422c555215b590004d5d6b05b&playtype=2&tk=144204083605244055930999382&brt=2&bc=0&xid=040002010053E19DD7E8CC064624B5BC0A9F9C-4468-3B55-55AD-000236874898&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2318&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874898&fi=0&sz=4562724> from <GET http://vr.tudou.com/v2proxy/v2?it=201025576>
+2015-04-05 23:57:13+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-27.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:14+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-26.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:16+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.21/f4v/14/201025514.h264_1.040002010053E19CF3DCB1A592DEAC1AB9E5D0-4DCD-5DE8-6A00-000236874181.f4v?key=083f7501556d3001f71cdc55215b450004d5d6b05b&playtype=2&tk=144204083605244055730996961&brt=2&bc=0&xid=040002010053E19CF3DCB1A592DEAC1AB9E5D0-4DCD-5DE8-6A00-000236874181&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4340&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874181&fi=0&sz=4384179> (referer: None)
+2015-04-05 23:57:16+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025514> referred in <None>
+2015-04-05 23:57:16+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-38.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025514',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c39\u96c6'],
+	 'sound_id': u'39',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/3801c4fc318bf99aa8016e5ab7161ba7f5974782/v2?it=201025514',
+	 'user_id': 123}
+2015-04-05 23:57:20+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.86/f4v/32/201025232.h264_1.040002010053E19C79B7147622C254E18D9BA8-5931-C71A-68E8-000236873798.f4v?key=f87ab4f7cfa2696927190455215b160004d5d6b05b&playtype=2&tk=183835793311453253340709417&brt=2&bc=0&xid=040002010053E19C79B7147622C254E18D9BA8-5931-C71A-68E8-000236873798&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1486&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873798&fi=0&sz=3665266> (referer: None)
+2015-04-05 23:57:20+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025232> referred in <None>
+2015-04-05 23:57:20+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025232',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c61\u96c6'],
+	 'sound_id': u'61',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/2a1eb4cd4bd9a1dc4748bf79fdb69e9d6eb401ab/v2?it=201025232',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:57:20+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.16/f4v/36/201025536.h264_1.040002010053E19CE92A43F470E2500D4D604A-051D-6CF8-F2C1-000236874147.f4v?key=48844697b8f55c24efbe7755215b460004d5d6b05b&playtype=2&tk=142762909734252941500864545&brt=2&bc=0&xid=040002010053E19CE92A43F470E2500D4D604A-051D-6CF8-F2C1-000236874147&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4346&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874147&fi=0&sz=4463220> (referer: None)
+2015-04-05 23:57:20+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025536> referred in <None>
+2015-04-05 23:57:20+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-37.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025536',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c38\u96c6'],
+	 'sound_id': u'38',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/b6c56e8bdb2e42dcf2716ab47392a2fac5048995/v2?it=201025536',
+	 'user_id': 123}
+2015-04-05 23:57:20+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.81/f4v/86/201025586.h264_1.040002010053E19CF5532F51D9385DBCC903B5-0C68-DC0C-D42D-000236874189.f4v?key=ad5db1af068dd91ca4577f55215b600004d5d6b05b&playtype=2&tk=144204072610127778240999400&brt=2&bc=0&xid=040002010053E19CF5532F51D9385DBCC903B5-0C68-DC0C-D42D-000236874189&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1481&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874189&fi=0&sz=4386118> from <GET http://vr.tudou.com/v2proxy/v2?it=201025586>
+2015-04-05 23:57:20+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.84/f4v/95/201025595.h264_1.040002010053E19D2221003F6A5ACD63ADC329-F045-05A5-B87F-000236874352.f4v?key=73a6d9cd345ce13765df0a55215b600004d5d6b05b&playtype=2&tk=144204072610127778240999415&brt=2&bc=0&xid=040002010053E19D2221003F6A5ACD63ADC329-F045-05A5-B87F-000236874352&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1484&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874352&fi=0&sz=4401250> from <GET http://vr.tudou.com/v2proxy/v2?it=201025595>
+2015-04-05 23:57:20+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.91/f4v/96/201025596.h264_1.040002010053E19CF58FE8A084E02C6CA97A5C-F255-AAA3-8C2D-000236874191.f4v?key=4ea62f36fdbd0b50e43d7055215b600004d5d6b05b&playtype=2&tk=183835727340755587520806896&brt=2&bc=0&xid=040002010053E19CF58FE8A084E02C6CA97A5C-F255-AAA3-8C2D-000236874191&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874191&fi=0&sz=4365308> from <GET http://vr.tudou.com/v2proxy/v2?it=201025596>
+2015-04-05 23:57:20+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-25.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:23+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-24.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:24+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.86/f4v/33/201025233.h264_1.040002010053E19C87191A655DB01E7D0155D3-3FAA-2627-FFE4-000236873848.f4v?key=8173efd78c5965bf8c6faf55215b2a0004d5d6b05b&playtype=2&tk=183835782316336975780781370&brt=2&bc=0&xid=040002010053E19C87191A655DB01E7D0155D3-3FAA-2627-FFE4-000236873848&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1486&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873848&fi=0&sz=3651827> (referer: None)
+2015-04-05 23:57:24+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025233> referred in <None>
+2015-04-05 23:57:24+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025233',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c60\u96c6'],
+	 'sound_id': u'60',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/6ab380f1a3f392f32d47604c4a72989d27fe68cc/v2?it=201025233',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:57:24+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-23.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:25+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-22.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:34+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.92/f4v/96/201025196.h264_1.040002010053E19C2D669DA332ACAB2334595D-61C4-AC51-FEC1-000236873587.f4v?key=ab01d7f9e3c354d036995b55215b160004d5d6b05b&playtype=2&tk=183835826296802086620786719&brt=2&bc=0&xid=040002010053E19C2D669DA332ACAB2334595D-61C4-AC51-FEC1-000236873587&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1235&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873587&fi=0&sz=3671944> (referer: None)
+2015-04-05 23:57:34+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025196> referred in <None>
+2015-04-05 23:57:34+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025196',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c64\u96c6'],
+	 'sound_id': u'64',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/2301e1272b87472cdb7d12bd5e2bb4d16584ca3e/v2?it=201025196',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:57:34+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.91/f4v/1/201025601.h264_1.040002010053E19D15DF7F1F80D3DC6F97676C-CFD2-DB3C-0183-000236874312.f4v?key=23203b38f027496ffa2a3855215b6e0004d5d6b05b&playtype=2&tk=142762898739136664140863574&brt=2&bc=0&xid=040002010053E19D15DF7F1F80D3DC6F97676C-CFD2-DB3C-0183-000236874312&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874312&fi=0&sz=4466690> from <GET http://vr.tudou.com/v2proxy/v2?it=201025601>
+2015-04-05 23:57:34+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.9.22/f4v/10/201025610.h264_1.040002010053E19CE7066AA5B521DECD357A71-3BCF-B6A1-1C9B-000236874134.f4v?key=70abe61509ad6fddd367c455215b6e0004d5d6b05b&playtype=2&tk=142762920729369219660867857&brt=2&bc=0&xid=040002010053E19CE7066AA5B521DECD357A71-3BCF-B6A1-1C9B-000236874134&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3581&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874134&fi=0&sz=4463781> from <GET http://vr.tudou.com/v2proxy/v2?it=201025610>
+2015-04-05 23:57:41+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.87/f4v/46/201025546.h264_1.040002010053E19DB4C6B1B37BBBF783F5935E-0519-4391-73CF-000236874762.f4v?key=d629b80b240b2f36532e3755215b4e0004d5d6b05b&playtype=2&tk=144204050619895222540002608&brt=2&bc=0&xid=040002010053E19DB4C6B1B37BBBF783F5935E-0519-4391-73CF-000236874762&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2317&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874762&fi=0&sz=4379414> (referer: None)
+2015-04-05 23:57:41+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025546> referred in <None>
+2015-04-05 23:57:41+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-35.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025546',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c36\u96c6'],
+	 'sound_id': u'36',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/c1debac20e8218f41d022beba644662f1d087b06/v2?it=201025546',
+	 'user_id': 123}
+2015-04-05 23:57:41+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-21.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:43+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-20.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:47+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.87/f4v/63/201025563.h264_1.040002010053E19D99178E9B199E925153F7AA-CC9D-59CA-5251-000236874658.f4v?key=16ed1772b9dd6d58db57b755215b590004d5d6b05b&playtype=2&tk=183835793311453254010717467&brt=2&bc=0&xid=040002010053E19D99178E9B199E925153F7AA-CC9D-59CA-5251-000236874658&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2317&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874658&fi=0&sz=4337457> (referer: None)
+2015-04-05 23:57:47+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025563> referred in <None>
+2015-04-05 23:57:47+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-33.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025563',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c34\u96c6'],
+	 'sound_id': u'34',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/74dfe5cb769b1e59ed630a334781ec80f726cc43/v2?it=201025563',
+	 'user_id': 123}
+2015-04-05 23:57:48+0800 [tingshu] INFO: Crawled 95 pages (at 33 pages/min), scraped 11 items (at 5 items/min)
+2015-04-05 23:57:55+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.81/f4v/86/201025586.h264_1.040002010053E19CF5532F51D9385DBCC903B5-0C68-DC0C-D42D-000236874189.f4v?key=ad5db1af068dd91ca4577f55215b600004d5d6b05b&playtype=2&tk=144204072610127778240999400&brt=2&bc=0&xid=040002010053E19CF5532F51D9385DBCC903B5-0C68-DC0C-D42D-000236874189&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1481&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874189&fi=0&sz=4386118> (referer: None)
+2015-04-05 23:57:55+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025586> referred in <None>
+2015-04-05 23:57:55+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-30.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025586',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c31\u96c6'],
+	 'sound_id': u'31',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/a8c51ad7dc1bcae42cf64153a9dd29642e4b9074/v2?it=201025586',
+	 'user_id': 123}
+2015-04-05 23:57:56+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.9.13/f4v/20/201025620.h264_1.040002010053E19D15CDF5CE927F4B15443968-C35E-2C20-C358-000236874310.f4v?key=4b19a67b0fc4e62c3a441355215b830004d5d6b05b&playtype=2&tk=183835738335871865630776070&brt=2&bc=0&xid=040002010053E19D15CDF5CE927F4B15443968-C35E-2C20-C358-000236874310&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3584&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874310&fi=0&sz=4403570> from <GET http://vr.tudou.com/v2proxy/v2?it=201025620>
+2015-04-05 23:57:56+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-19.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:56+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.88/f4v/21/201025621.h264_1.040002010053E19DA6D1FC8B1D19F3E8AE1D6E-8E1D-5875-78E6-000236874715.f4v?key=58b6333a6ecb26cda3dfc055215b840004d5d6b05b&playtype=2&tk=183835738335871865640794391&brt=2&bc=0&xid=040002010053E19DA6D1FC8B1D19F3E8AE1D6E-8E1D-5875-78E6-000236874715&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2318&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874715&fi=0&sz=4372287> from <GET http://vr.tudou.com/v2proxy/v2?it=201025621>
+2015-04-05 23:57:56+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.92/f4v/31/201025631.h264_1.040002010053E19D03E28E7F1F2CC9D53AB6C7-C54A-EEB5-FB16-000236874234.f4v?key=4a2859b5e5360a34dc19f055215b840004d5d6b05b&playtype=2&tk=183835738335871865640793852&brt=2&bc=0&xid=040002010053E19D03E28E7F1F2CC9D53AB6C7-C54A-EEB5-FB16-000236874234&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1235&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874234&fi=0&sz=4509865> from <GET http://vr.tudou.com/v2proxy/v2?it=201025631>
+2015-04-05 23:57:56+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-18.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:57:59+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.15/f4v/42/201025642.h264_1.040002010053E19CE21B853C7871A30FD1ED65-8F9A-5AC2-CDD6-000236874118.f4v?key=c65f0491e7694c4a5d315a55215b840004d5d6b05b&playtype=2&tk=183835738335871865640776142&brt=2&bc=0&xid=040002010053E19CE21B853C7871A30FD1ED65-8F9A-5AC2-CDD6-000236874118&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4343&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874118&fi=0&sz=4329451> from <GET http://vr.tudou.com/v2proxy/v2?it=201025642>
+2015-04-05 23:58:01+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.90/f4v/45/201025545.h264_1.040002010053E19D453BCC663D11A754BDBEF8-3F87-805F-8AA4-000236874447.f4v?key=628bec9ead963217197deb55215b450004d5d6b05b&playtype=2&tk=183835749330988142770733557&brt=2&bc=0&xid=040002010053E19D453BCC663D11A754BDBEF8-3F87-805F-8AA4-000236874447&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2320&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874447&fi=0&sz=4463904> (referer: None)
+2015-04-05 23:58:01+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025545> referred in <None>
+2015-04-05 23:58:01+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-36.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025545',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c37\u96c6'],
+	 'sound_id': u'37',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/4cc0b93d76278937f8510a523bd6926bf57b5e1f/v2?it=201025545',
+	 'user_id': 123}
+2015-04-05 23:58:04+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.88/f4v/52/201025552.h264_1.040002010053E19DC5B41903B607A267FA23D6-4F78-50DF-D57E-000236874871.f4v?key=c9ed7d686e74a69c52514755215b4e0004d5d6b05b&playtype=2&tk=183835782316336976140773133&brt=2&bc=0&xid=040002010053E19DC5B41903B607A267FA23D6-4F78-50DF-D57E-000236874871&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2318&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874871&fi=0&sz=4517802> (referer: None)
+2015-04-05 23:58:04+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025552> referred in <None>
+2015-04-05 23:58:04+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-34.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025552',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c35\u96c6'],
+	 'sound_id': u'35',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/28d4df2840c1909282a2c4f8c0adacd811ce32d6/v2?it=201025552',
+	 'user_id': 123}
+2015-04-05 23:58:04+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.11/f4v/43/201025643.h264_1.040002010053E19CE200A1760E457330CDE36B-8C09-B337-BA69-000236874120.f4v?key=bbb69b4b6b682ca83bcbc655215b8c0004d5d6b05b&playtype=2&tk=183835749330988143480757803&brt=2&bc=0&xid=040002010053E19CE200A1760E457330CDE36B-8C09-B337-BA69-000236874120&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4339&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=null&itemid=236874120&fi=0&sz=4445473> from <GET http://vr.tudou.com/v2proxy/v2?it=201025643>
+2015-04-05 23:58:04+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-17.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.9.18/f4v/53/201025653.h264_1.040002010053E19D0B8C7E6300C06D34D99602-3962-A41E-9237-000236874261.f4v?key=554e377db2f2cedbb40d3955215b8c0004d5d6b05b&playtype=2&tk=183835738335871865720794841&brt=2&bc=0&xid=040002010053E19D0B8C7E6300C06D34D99602-3962-A41E-9237-000236874261&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3577&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874261&fi=0&sz=4430550> from <GET http://vr.tudou.com/v2proxy/v2?it=201025653>
+2015-04-05 23:58:08+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-16.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:08+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.90/f4v/46/201025346.h264_1.040002010053E19C96AD89BB59FA4378451619-CD57-02A5-A1D3-000236873879.f4v?key=5fd248e3fcb7c27514449755215b400004d5d6b05b&playtype=2&tk=183835804306569531520776547&brt=2&bc=0&xid=040002010053E19C96AD89BB59FA4378451619-CD57-02A5-A1D3-000236873879&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2320&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236873879&fi=0&sz=3900155> (referer: None)
+2015-04-05 23:58:08+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025346> referred in <None>
+2015-04-05 23:58:08+0800 [tingshu] ERROR: Error processing {'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025346',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c57\u96c6'],
+	 'sound_id': u'57',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/747b04207ebc0bb3158c3c4ee6a1dc13619514d7/v2?it=201025346',
+	 'user_id': 123}
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 840, in _cbDeferred
+	    self.callback(self.resultList)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 383, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 491, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 578, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "tingshu520/pipelines.py", line 52, in process_item
+	    ret = self.insertTable(item, item['user_id'])
+	  File "tingshu520/pipelines.py", line 127, in insertTable
+	    print sql %params
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode characters in position 235-244: ordinal not in range(128)
+	
+2015-04-05 23:58:08+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.91/f4v/96/201025596.h264_1.040002010053E19CF58FE8A084E02C6CA97A5C-F255-AAA3-8C2D-000236874191.f4v?key=4ea62f36fdbd0b50e43d7055215b600004d5d6b05b&playtype=2&tk=183835727340755587520806896&brt=2&bc=0&xid=040002010053E19CF58FE8A084E02C6CA97A5C-F255-AAA3-8C2D-000236874191&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874191&fi=0&sz=4365308> (referer: None)
+2015-04-05 23:58:08+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025596> referred in <None>
+2015-04-05 23:58:08+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-28.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025596',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c29\u96c6'],
+	 'sound_id': u'29',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/6db2b835fd9a679592d4f45b7d7d92d7fd63e2e4/v2?it=201025596',
+	 'user_id': 123}
+2015-04-05 23:58:09+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.89/f4v/64/201025664.h264_1.040002010053E19D1B68C880314EA4C1BD20A1-417C-ED64-A5A3-000236874333.f4v?key=15a965f830564ef4fc3f2555215b910004d5d6b05b&playtype=2&tk=143483463684399666090854109&brt=2&bc=0&xid=040002010053E19D1B68C880314EA4C1BD20A1-417C-ED64-A5A3-000236874333&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2319&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874333&fi=0&sz=4375180> from <GET http://vr.tudou.com/v2proxy/v2?it=201025664>
+2015-04-05 23:58:09+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-15.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:09+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-14.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:10+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.88/f4v/76/201025576.h264_1.040002010053E19DD7E8CC064624B5BC0A9F9C-4468-3B55-55AD-000236874898.f4v?key=5bb089a29167c7764422c555215b590004d5d6b05b&playtype=2&tk=144204083605244055930999382&brt=2&bc=0&xid=040002010053E19DD7E8CC064624B5BC0A9F9C-4468-3B55-55AD-000236874898&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2318&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874898&fi=0&sz=4562724> (referer: None)
+2015-04-05 23:58:10+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025576> referred in <None>
+2015-04-05 23:58:10+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-31.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025576',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c32\u96c6'],
+	 'sound_id': u'32',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/be2f23a7f1cb3f151f24383d5e2d8713a8fe1801/v2?it=201025576',
+	 'user_id': 123}
+2015-04-05 23:58:10+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.15/f4v/63/201025663.h264_1.040002010053E19D23681489854FC144D7EDAB-7A87-2E2C-C5C3-000236874354.f4v?key=18128a6ce08f3ef1c9c60c55215b920004d5d6b05b&playtype=2&tk=183835738335871865780796168&brt=2&bc=0&xid=040002010053E19D23681489854FC144D7EDAB-7A87-2E2C-C5C3-000236874354&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4343&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874354&fi=0&sz=4378127> from <GET http://vr.tudou.com/v2proxy/v2?it=201025663>
+2015-04-05 23:58:14+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.15/f4v/42/201025642.h264_1.040002010053E19CE21B853C7871A30FD1ED65-8F9A-5AC2-CDD6-000236874118.f4v?key=c65f0491e7694c4a5d315a55215b840004d5d6b05b&playtype=2&tk=183835738335871865640776142&brt=2&bc=0&xid=040002010053E19CE21B853C7871A30FD1ED65-8F9A-5AC2-CDD6-000236874118&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4343&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874118&fi=0&sz=4329451> (referer: None)
+2015-04-05 23:58:14+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025642> referred in <None>
+2015-04-05 23:58:15+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-22.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025642',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c23\u96c6'],
+	 'sound_id': u'23',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/63fd13765394ed7607ca88fe5d4ad021d8d97e56/v2?it=201025642',
+	 'user_id': 123}
+2015-04-05 23:58:15+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-13.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:18+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.91/f4v/1/201025601.h264_1.040002010053E19D15DF7F1F80D3DC6F97676C-CFD2-DB3C-0183-000236874312.f4v?key=23203b38f027496ffa2a3855215b6e0004d5d6b05b&playtype=2&tk=142762898739136664140863574&brt=2&bc=0&xid=040002010053E19D15DF7F1F80D3DC6F97676C-CFD2-DB3C-0183-000236874312&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874312&fi=0&sz=4466690> (referer: None)
+2015-04-05 23:58:18+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025601> referred in <None>
+2015-04-05 23:58:18+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-27.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025601',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c28\u96c6'],
+	 'sound_id': u'28',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/11034d70f5b0c1f4288540cfe41060307eb32f7b/v2?it=201025601',
+	 'user_id': 123}
+2015-04-05 23:58:18+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-12.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:18+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.91/f4v/65/201025665.h264_1.040002010053E19D3A59C5E49E4C86595E4E41-C769-4871-8205-000236874409.f4v?key=e6b24f2999ae733798224e55215b9a0004d5d6b05b&playtype=2&tk=143483496669748499460865191&brt=2&bc=0&xid=040002010053E19D3A59C5E49E4C86595E4E41-C769-4871-8205-000236874409&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874409&fi=0&sz=4331575> from <GET http://vr.tudou.com/v2proxy/v2?it=201025665>
+2015-04-05 23:58:18+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-11.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:20+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.11/f4v/43/201025643.h264_1.040002010053E19CE200A1760E457330CDE36B-8C09-B337-BA69-000236874120.f4v?key=bbb69b4b6b682ca83bcbc655215b8c0004d5d6b05b&playtype=2&tk=183835749330988143480757803&brt=2&bc=0&xid=040002010053E19CE200A1760E457330CDE36B-8C09-B337-BA69-000236874120&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4339&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=null&itemid=236874120&fi=0&sz=4445473> (referer: None)
+2015-04-05 23:58:20+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025643> referred in <None>
+2015-04-05 23:58:20+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-21.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025643',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c22\u96c6'],
+	 'sound_id': u'22',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/498976a16a2eaa5e902604d16d1929e030dd79b9/v2?it=201025643',
+	 'user_id': 123}
+2015-04-05 23:58:20+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.10.177/f4v/79/201025679.h264_1.040002010053E19CFAE8A094EF60CDF9B4A963-C21D-798A-1109-000236874200.f4v?key=3d45ab5560e76cffe1912855215b9c0004d5d6b05b&playtype=2&tk=183835815301685810200795532&brt=2&bc=0&xid=040002010053E19CFAE8A094EF60CDF9B4A963-C21D-798A-1109-000236874200&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1233&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874200&fi=0&sz=4394026> from <GET http://vr.tudou.com/v2proxy/v2?it=201025679>
+2015-04-05 23:58:29+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.83/f4v/62/201025562.h264_1.040002010053E19D5428D96444B046F59E0734-D821-3538-9BD0-000236874497.f4v?key=97627adc01b2205d2160b155215b590004d5d6b05b&playtype=2&tk=183835716345639309690793811&brt=2&bc=0&xid=040002010053E19D5428D96444B046F59E0734-D821-3538-9BD0-000236874497&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1483&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874497&fi=0&sz=4289157> (referer: None)
+2015-04-05 23:58:29+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025562> referred in <None>
+2015-04-05 23:58:29+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-32.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025562',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c33\u96c6'],
+	 'sound_id': u'33',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/044893f31c5e3bd5bdd66f6b2e1b66f6ba42d1aa/v2?it=201025562',
+	 'user_id': 123}
+2015-04-05 23:58:29+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.93/f4v/77/201025677.h264_1.040002010053E19D058B87DC605540EAC8ABB3-D088-9A97-3728-000236874238.f4v?key=c47e537974eb925f3ddac555215ba50004d5d6b05b&playtype=2&tk=183835738335871865970797814&brt=2&bc=0&xid=040002010053E19D058B87DC605540EAC8ABB3-D088-9A97-3728-000236874238&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1236&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874238&fi=0&sz=4457639> from <GET http://vr.tudou.com/v2proxy/v2?it=201025677>
+2015-04-05 23:58:29+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.10.177/f4v/85/201025685.h264_1.040002010053E19D0486A54E54D53DC1DAE693-5C37-9881-DFC6-000236874236.f4v?key=977dce1c56c458110a9cd655215ba50004d5d6b05b&playtype=2&tk=183835738335871865970797829&brt=2&bc=0&xid=040002010053E19D0486A54E54D53DC1DAE693-5C37-9881-DFC6-000236874236&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1233&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874236&fi=0&sz=4369506> from <GET http://vr.tudou.com/v2proxy/v2?it=201025685>
+2015-04-05 23:58:29+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-10.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:30+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-9.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:35+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.15/f4v/63/201025663.h264_1.040002010053E19D23681489854FC144D7EDAB-7A87-2E2C-C5C3-000236874354.f4v?key=18128a6ce08f3ef1c9c60c55215b920004d5d6b05b&playtype=2&tk=183835738335871865780796168&brt=2&bc=0&xid=040002010053E19D23681489854FC144D7EDAB-7A87-2E2C-C5C3-000236874354&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4343&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874354&fi=0&sz=4378127> (referer: None)
+2015-04-05 23:58:35+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025663> referred in <None>
+2015-04-05 23:58:35+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-18.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025663',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c19\u96c6'],
+	 'sound_id': u'19',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/94b9fe0a7093a37dd2bedc08d91ec0e82da7185c/v2?it=201025663',
+	 'user_id': 123}
+2015-04-05 23:58:35+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.91/f4v/0/201025700.h264_1.040002010053E19D21C2DAB3D259020FD2E4D6-41EE-AD74-6C2C-000236874350.f4v?key=c684e9c91173b4a899823355215bab0004d5d6b05b&playtype=2&tk=183835826296802088110785174&brt=2&bc=0&xid=040002010053E19D21C2DAB3D259020FD2E4D6-41EE-AD74-6C2C-000236874350&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=null&itemid=236874350&fi=0&sz=4484071> from <GET http://vr.tudou.com/v2proxy/v2?it=201025700>
+2015-04-05 23:58:35+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.16/f4v/9/201025709.h264_1.040002010053E19D2B5986C5432D94A0BCA8B6-6ED1-5F9F-A229-000236874372.f4v?key=67b3a6f6fe89ca049b13df55215bab0004d5d6b05b&playtype=2&tk=183835837291918365870743423&brt=2&bc=0&xid=040002010053E19D2B5986C5432D94A0BCA8B6-6ED1-5F9F-A229-000236874372&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4346&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874372&fi=0&sz=4450957> from <GET http://vr.tudou.com/v2proxy/v2?it=201025709>
+2015-04-05 23:58:37+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.9.18/f4v/53/201025653.h264_1.040002010053E19D0B8C7E6300C06D34D99602-3962-A41E-9237-000236874261.f4v?key=554e377db2f2cedbb40d3955215b8c0004d5d6b05b&playtype=2&tk=183835738335871865720794841&brt=2&bc=0&xid=040002010053E19D0B8C7E6300C06D34D99602-3962-A41E-9237-000236874261&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3577&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874261&fi=0&sz=4430550> (referer: None)
+2015-04-05 23:58:37+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025653> referred in <None>
+2015-04-05 23:58:37+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-20.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025653',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c21\u96c6'],
+	 'sound_id': u'21',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/b2d392e3fae896ed164723b65ab64019feee29a2/v2?it=201025653',
+	 'user_id': 123}
+2015-04-05 23:58:37+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.89/f4v/10/201025710.h264_1.040002010053E19D2025485E741E392DC17409-918D-0F81-F1D3-000236874344.f4v?key=d2cab8fa1309de70abb89a55215bad0004d5d6b05b&playtype=2&tk=183835782316336977090751228&brt=2&bc=0&xid=040002010053E19D2025485E741E392DC17409-918D-0F81-F1D3-000236874344&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2319&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874344&fi=0&sz=4335253> from <GET http://vr.tudou.com/v2proxy/v2?it=201025710>
+2015-04-05 23:58:37+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-8.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:37+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-7.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:39+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.9.13/f4v/20/201025620.h264_1.040002010053E19D15CDF5CE927F4B15443968-C35E-2C20-C358-000236874310.f4v?key=4b19a67b0fc4e62c3a441355215b830004d5d6b05b&playtype=2&tk=183835738335871865630776070&brt=2&bc=0&xid=040002010053E19D15CDF5CE927F4B15443968-C35E-2C20-C358-000236874310&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3584&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874310&fi=0&sz=4403570> (referer: None)
+2015-04-05 23:58:39+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025620> referred in <None>
+2015-04-05 23:58:39+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-25.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025620',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c26\u96c6'],
+	 'sound_id': u'26',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/623fba961d9cd58e89f3d8193a4c3cf0e5444c98/v2?it=201025620',
+	 'user_id': 123}
+2015-04-05 23:58:43+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.9.22/f4v/10/201025610.h264_1.040002010053E19CE7066AA5B521DECD357A71-3BCF-B6A1-1C9B-000236874134.f4v?key=70abe61509ad6fddd367c455215b6e0004d5d6b05b&playtype=2&tk=142762920729369219660867857&brt=2&bc=0&xid=040002010053E19CE7066AA5B521DECD357A71-3BCF-B6A1-1C9B-000236874134&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=3581&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874134&fi=0&sz=4463781> (referer: None)
+2015-04-05 23:58:43+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025610> referred in <None>
+2015-04-05 23:58:43+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-26.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025610',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c27\u96c6'],
+	 'sound_id': u'27',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/a9641f9b80c288e4d06022e8a1f12c240dbb5c87/v2?it=201025610',
+	 'user_id': 123}
+2015-04-05 23:58:44+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.92/f4v/31/201025631.h264_1.040002010053E19D03E28E7F1F2CC9D53AB6C7-C54A-EEB5-FB16-000236874234.f4v?key=4a2859b5e5360a34dc19f055215b840004d5d6b05b&playtype=2&tk=183835738335871865640793852&brt=2&bc=0&xid=040002010053E19D03E28E7F1F2CC9D53AB6C7-C54A-EEB5-FB16-000236874234&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1235&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874234&fi=0&sz=4509865> (referer: None)
+2015-04-05 23:58:44+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025631> referred in <None>
+2015-04-05 23:58:44+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-23.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025631',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c24\u96c6'],
+	 'sound_id': u'24',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/d07bfac23ef1014ed4301897558fb4375ecf69d4/v2?it=201025631',
+	 'user_id': 123}
+2015-04-05 23:58:44+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.89/f4v/18/201025718.h264_1.040002010053E19D2099DB1D882286796D2C1D-D965-66F3-FB07-000236874346.f4v?key=353a87365de7487056e8e855215bb40004d5d6b05b&playtype=2&tk=183835815301685810440720025&brt=2&bc=0&xid=040002010053E19D2099DB1D882286796D2C1D-D965-66F3-FB07-000236874346&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2319&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874346&fi=0&sz=4244387> from <GET http://vr.tudou.com/v2proxy/v2?it=201025718>
+2015-04-05 23:58:44+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-6.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:47+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.92/f4v/38/201025738.h264_1.040002010053E19DC4C2D042D1CF46FA3B5C3D-CC58-5FFE-0E24-000236874867.f4v?key=ef43d9c9140c70bf0eaff655215bb40004d5d6b05b&playtype=2&tk=142762909734252942600877743&brt=2&bc=0&xid=040002010053E19DC4C2D042D1CF46FA3B5C3D-CC58-5FFE-0E24-000236874867&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1235&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874867&fi=0&sz=4355609> from <GET http://vr.tudou.com/v2proxy/v2?it=201025738>
+2015-04-05 23:58:47+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-5.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:47+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-4.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:48+0800 [tingshu] INFO: Crawled 126 pages (at 31 pages/min), scraped 25 items (at 14 items/min)
+2015-04-05 23:58:49+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.84/f4v/95/201025595.h264_1.040002010053E19D2221003F6A5ACD63ADC329-F045-05A5-B87F-000236874352.f4v?key=73a6d9cd345ce13765df0a55215b600004d5d6b05b&playtype=2&tk=144204072610127778240999415&brt=2&bc=0&xid=040002010053E19D2221003F6A5ACD63ADC329-F045-05A5-B87F-000236874352&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1484&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874352&fi=0&sz=4401250> (referer: None)
+2015-04-05 23:58:49+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025595> referred in <None>
+2015-04-05 23:58:49+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-29.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025595',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c30\u96c6'],
+	 'sound_id': u'30',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/99aa8f84f019d0fc096559575644b368595cada8/v2?it=201025595',
+	 'user_id': 123}
+2015-04-05 23:58:49+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.88/f4v/21/201025621.h264_1.040002010053E19DA6D1FC8B1D19F3E8AE1D6E-8E1D-5875-78E6-000236874715.f4v?key=58b6333a6ecb26cda3dfc055215b840004d5d6b05b&playtype=2&tk=183835738335871865640794391&brt=2&bc=0&xid=040002010053E19DA6D1FC8B1D19F3E8AE1D6E-8E1D-5875-78E6-000236874715&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2318&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874715&fi=0&sz=4372287> (referer: None)
+2015-04-05 23:58:49+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025621> referred in <None>
+2015-04-05 23:58:49+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-24.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025621',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c25\u96c6'],
+	 'sound_id': u'25',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/5d29dd506e975273200e06a59092b607580e7e4d/v2?it=201025621',
+	 'user_id': 123}
+2015-04-05 23:58:50+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-3.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:51+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.91/f4v/65/201025665.h264_1.040002010053E19D3A59C5E49E4C86595E4E41-C769-4871-8205-000236874409.f4v?key=e6b24f2999ae733798224e55215b9a0004d5d6b05b&playtype=2&tk=143483496669748499460865191&brt=2&bc=0&xid=040002010053E19D3A59C5E49E4C86595E4E41-C769-4871-8205-000236874409&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874409&fi=0&sz=4331575> (referer: None)
+2015-04-05 23:58:51+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025665> referred in <None>
+2015-04-05 23:58:51+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-17.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025665',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c18\u96c6'],
+	 'sound_id': u'18',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/51bed13d99b45ba62fedde99f1cd254149c21899/v2?it=201025665',
+	 'user_id': 123}
+2015-04-05 23:58:51+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.88/f4v/39/201025739.h264_1.040002010053E19D3891E7B7AC154FF39727D4-D98D-1C6F-967B-000236874402.f4v?key=9268d1c547e1cd2c4d0ba055215bbb0004d5d6b05b&playtype=2&tk=142762942719601775950877751&brt=2&bc=0&xid=040002010053E19D3891E7B7AC154FF39727D4-D98D-1C6F-967B-000236874402&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2318&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=null&itemid=236874402&fi=0&sz=4373721> from <GET http://vr.tudou.com/v2proxy/v2?it=201025739>
+2015-04-05 23:58:51+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-2.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:52+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://125.39.67.12/f4v/43/201025743.h264_1.040002010053E19DDBBA4CB6774CEA9E7546B4-8321-F449-F3F7-000236874908.f4v?key=ae2e8fdbb320d63f7dbf0d55215bbb0004d5d6b05b&playtype=2&tk=183835782316336977230786176&brt=2&bc=0&xid=040002010053E19DDBBA4CB6774CEA9E7546B4-8321-F449-F3F7-000236874908&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4342&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874908&fi=0&sz=4316792> from <GET http://vr.tudou.com/v2proxy/v2?it=201025743>
+2015-04-05 23:58:52+0800 [tingshu] DEBUG: Crawled (200) <GET http://www.520tingshu.com/down/?11239-0-1.html> (referer: http://www.520tingshu.com/video/?11239-0-0.html) ['partial']
+2015-04-05 23:58:55+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.16/f4v/9/201025709.h264_1.040002010053E19D2B5986C5432D94A0BCA8B6-6ED1-5F9F-A229-000236874372.f4v?key=67b3a6f6fe89ca049b13df55215bab0004d5d6b05b&playtype=2&tk=183835837291918365870743423&brt=2&bc=0&xid=040002010053E19D2B5986C5432D94A0BCA8B6-6ED1-5F9F-A229-000236874372&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4346&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874372&fi=0&sz=4450957> (referer: None)
+2015-04-05 23:58:55+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025709> referred in <None>
+2015-04-05 23:58:55+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-12.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025709',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c13\u96c6'],
+	 'sound_id': u'13',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/6b890a68aad18fe252855baa9a4af84acbf2e602/v2?it=201025709',
+	 'user_id': 123}
+2015-04-05 23:58:55+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.10.177/f4v/47/201025747.h264_1.040002010053E19DDB52EBEE45A6050D23DA47-4AAE-3E6C-AEA5-000236874910.f4v?key=818c2fdb5bf50c0310eafb55215bbf0004d5d6b05b&playtype=2&tk=183835782316336977270753398&brt=2&bc=0&xid=040002010053E19DDB52EBEE45A6050D23DA47-4AAE-3E6C-AEA5-000236874910&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1233&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874910&fi=0&sz=4244641> from <GET http://vr.tudou.com/v2proxy/v2?it=201025747>
+2015-04-05 23:58:55+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.89/f4v/64/201025664.h264_1.040002010053E19D1B68C880314EA4C1BD20A1-417C-ED64-A5A3-000236874333.f4v?key=15a965f830564ef4fc3f2555215b910004d5d6b05b&playtype=2&tk=143483463684399666090854109&brt=2&bc=0&xid=040002010053E19D1B68C880314EA4C1BD20A1-417C-ED64-A5A3-000236874333&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2319&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874333&fi=0&sz=4375180> (referer: None)
+2015-04-05 23:58:55+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025664> referred in <None>
+2015-04-05 23:58:55+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-19.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025664',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c20\u96c6'],
+	 'sound_id': u'20',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/ceea321f5ff0f0d50e292b596c308b66a3d561e2/v2?it=201025664',
+	 'user_id': 123}
+2015-04-05 23:58:55+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.91/f4v/52/201025752.h264_1.040002010053E19D59CBB750E55247D74ACEF3-40C5-219E-3AD3-000236874506.f4v?key=7378af93685774ab355ede55215bbf0004d5d6b05b&playtype=2&tk=144204050619895223670016163&brt=2&bc=0&xid=040002010053E19D59CBB750E55247D74ACEF3-40C5-219E-3AD3-000236874506&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874506&fi=0&sz=3888293> from <GET http://vr.tudou.com/v2proxy/v2?it=201025752>
+2015-04-05 23:58:56+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.81/f4v/55/201025755.h264_1.040002010053E19D663E4DCDDB03C66FBD5D30-29A5-24F6-4CB4-000236874535.f4v?key=539793c1fb7f2fed45ee0155215bbf0004d5d6b05b&playtype=2&tk=142042311803641107830881027&brt=2&bc=0&xid=040002010053E19D663E4DCDDB03C66FBD5D30-29A5-24F6-4CB4-000236874535&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1481&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874535&fi=0&sz=3913014> from <GET http://vr.tudou.com/v2proxy/v2?it=201025755>
+2015-04-05 23:58:56+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.10.177/f4v/56/201025756.h264_1.040002010053E19D38B9F5732674052A60B844-4033-6251-899D-000236874405.f4v?key=78c0c635158442b812ff0155215bc00004d5d6b05b&playtype=2&tk=142762887744020387200874258&brt=2&bc=0&xid=040002010053E19D38B9F5732674052A60B844-4033-6251-899D-000236874405&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1233&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874405&fi=0&sz=4523696> from <GET http://vr.tudou.com/v2proxy/v2?it=201025756>
+2015-04-05 23:59:04+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.89/f4v/10/201025710.h264_1.040002010053E19D2025485E741E392DC17409-918D-0F81-F1D3-000236874344.f4v?key=d2cab8fa1309de70abb89a55215bad0004d5d6b05b&playtype=2&tk=183835782316336977090751228&brt=2&bc=0&xid=040002010053E19D2025485E741E392DC17409-918D-0F81-F1D3-000236874344&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2319&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874344&fi=0&sz=4335253> (referer: None)
+2015-04-05 23:59:04+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025710> referred in <None>
+2015-04-05 23:59:04+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-11.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025710',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c12\u96c6'],
+	 'sound_id': u'12',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/b472556092f508d4f4af74a0cfaa11f0372580ba/v2?it=201025710',
+	 'user_id': 123}
+2015-04-05 23:59:05+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.89/f4v/59/201025759.h264_1.040002010053E19D669795624B13D450345706-5C21-7EC8-E704-000236874533.f4v?key=8df02079eea69fdfa871a955215bc90004d5d6b05b&playtype=2&tk=142762920729369220570878600&brt=2&bc=0&xid=040002010053E19D669795624B13D450345706-5C21-7EC8-E704-000236874533&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2319&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874533&fi=0&sz=4491612> from <GET http://vr.tudou.com/v2proxy/v2?it=201025759>
+2015-04-05 23:59:07+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.10.177/f4v/85/201025685.h264_1.040002010053E19D0486A54E54D53DC1DAE693-5C37-9881-DFC6-000236874236.f4v?key=977dce1c56c458110a9cd655215ba50004d5d6b05b&playtype=2&tk=183835738335871865970797829&brt=2&bc=0&xid=040002010053E19D0486A54E54D53DC1DAE693-5C37-9881-DFC6-000236874236&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1233&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874236&fi=0&sz=4369506> (referer: None)
+2015-04-05 23:59:07+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025685> referred in <None>
+2015-04-05 23:59:07+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-14.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025685',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c15\u96c6'],
+	 'sound_id': u'15',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/76dfdf44884f538855a31427450fec91e3694844/v2?it=201025685',
+	 'user_id': 123}
+2015-04-05 23:59:07+0800 [tingshu] DEBUG: Redirecting (302) to <GET http://124.14.8.83/f4v/70/201025770.h264_1.040002010053E19DB62678FE9E2A73EC9DA58B-8363-BCED-0009-000236874770.f4v?key=49dcf91e71bb11297ffd9055215bcb0004d5d6b05b&playtype=2&tk=183835815301685810670722759&brt=2&bc=0&xid=040002010053E19DB62678FE9E2A73EC9DA58B-8363-BCED-0009-000236874770&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1483&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874770&fi=0&sz=4466929> from <GET http://vr.tudou.com/v2proxy/v2?it=201025770>
+2015-04-05 23:59:09+0800 [tingshu] DEBUG: Crawled (200) <GET http://125.39.67.12/f4v/43/201025743.h264_1.040002010053E19DDBBA4CB6774CEA9E7546B4-8321-F449-F3F7-000236874908.f4v?key=ae2e8fdbb320d63f7dbf0d55215bbb0004d5d6b05b&playtype=2&tk=183835782316336977230786176&brt=2&bc=0&xid=040002010053E19DDBBA4CB6774CEA9E7546B4-8321-F449-F3F7-000236874908&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=4342&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874908&fi=0&sz=4316792> (referer: None)
+2015-04-05 23:59:09+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025743> referred in <None>
+2015-04-05 23:59:09+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-7.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025743',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c8\u96c6'],
+	 'sound_id': u'8',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/08381a4be74a0f94a1a9dd8ca2d992469eac5751/v2?it=201025743',
+	 'user_id': 123}
+2015-04-05 23:59:11+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.89/f4v/18/201025718.h264_1.040002010053E19D2099DB1D882286796D2C1D-D965-66F3-FB07-000236874346.f4v?key=353a87365de7487056e8e855215bb40004d5d6b05b&playtype=2&tk=183835815301685810440720025&brt=2&bc=0&xid=040002010053E19D2099DB1D882286796D2C1D-D965-66F3-FB07-000236874346&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2319&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874346&fi=0&sz=4244387> (referer: None)
+2015-04-05 23:59:11+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025718> referred in <None>
+2015-04-05 23:59:11+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-10.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025718',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c11\u96c6'],
+	 'sound_id': u'11',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/b7f99a4c46b9280644139ff9d2040471f98ea58c/v2?it=201025718',
+	 'user_id': 123}
+2015-04-05 23:59:13+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.91/f4v/0/201025700.h264_1.040002010053E19D21C2DAB3D259020FD2E4D6-41EE-AD74-6C2C-000236874350.f4v?key=c684e9c91173b4a899823355215bab0004d5d6b05b&playtype=2&tk=183835826296802088110785174&brt=2&bc=0&xid=040002010053E19D21C2DAB3D259020FD2E4D6-41EE-AD74-6C2C-000236874350&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=null&itemid=236874350&fi=0&sz=4484071> (referer: None)
+2015-04-05 23:59:13+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025700> referred in <None>
+2015-04-05 23:59:13+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-13.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025700',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c14\u96c6'],
+	 'sound_id': u'14',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/d8e53807a7c152b488d0f9c52d9f5ff9ee65f02d/v2?it=201025700',
+	 'user_id': 123}
+2015-04-05 23:59:20+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.10.177/f4v/47/201025747.h264_1.040002010053E19DDB52EBEE45A6050D23DA47-4AAE-3E6C-AEA5-000236874910.f4v?key=818c2fdb5bf50c0310eafb55215bbf0004d5d6b05b&playtype=2&tk=183835782316336977270753398&brt=2&bc=0&xid=040002010053E19DDB52EBEE45A6050D23DA47-4AAE-3E6C-AEA5-000236874910&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1233&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874910&fi=0&sz=4244641> (referer: None)
+2015-04-05 23:59:20+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025747> referred in <None>
+2015-04-05 23:59:20+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-6.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025747',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c7\u96c6'],
+	 'sound_id': u'7',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/4b40e4caaa7847d67753d356733757c94f5ac4e2/v2?it=201025747',
+	 'user_id': 123}
+2015-04-05 23:59:23+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.10.177/f4v/79/201025679.h264_1.040002010053E19CFAE8A094EF60CDF9B4A963-C21D-798A-1109-000236874200.f4v?key=3d45ab5560e76cffe1912855215b9c0004d5d6b05b&playtype=2&tk=183835815301685810200795532&brt=2&bc=0&xid=040002010053E19CFAE8A094EF60CDF9B4A963-C21D-798A-1109-000236874200&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1233&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874200&fi=0&sz=4394026> (referer: None)
+2015-04-05 23:59:23+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025679> referred in <None>
+2015-04-05 23:59:23+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-16.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025679',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c17\u96c6'],
+	 'sound_id': u'17',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/d0ef57b20c637e51c7ce5ecacba764f8284927f0/v2?it=201025679',
+	 'user_id': 123}
+2015-04-05 23:59:24+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.93/f4v/77/201025677.h264_1.040002010053E19D058B87DC605540EAC8ABB3-D088-9A97-3728-000236874238.f4v?key=c47e537974eb925f3ddac555215ba50004d5d6b05b&playtype=2&tk=183835738335871865970797814&brt=2&bc=0&xid=040002010053E19D058B87DC605540EAC8ABB3-D088-9A97-3728-000236874238&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1236&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874238&fi=0&sz=4457639> (referer: None)
+2015-04-05 23:59:24+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025677> referred in <None>
+2015-04-05 23:59:24+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-15.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025677',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c16\u96c6'],
+	 'sound_id': u'16',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/9d66bfcb8c78e045660f942d27493242245003ef/v2?it=201025677',
+	 'user_id': 123}
+2015-04-05 23:59:25+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.81/f4v/55/201025755.h264_1.040002010053E19D663E4DCDDB03C66FBD5D30-29A5-24F6-4CB4-000236874535.f4v?key=539793c1fb7f2fed45ee0155215bbf0004d5d6b05b&playtype=2&tk=142042311803641107830881027&brt=2&bc=0&xid=040002010053E19D663E4DCDDB03C66FBD5D30-29A5-24F6-4CB4-000236874535&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1481&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874535&fi=0&sz=3913014> (referer: None)
+2015-04-05 23:59:25+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025755> referred in <None>
+2015-04-05 23:59:25+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-4.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025755',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c5\u96c6'],
+	 'sound_id': u'5',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/81275761af05bbaab7e394b53133d06eb4e67592/v2?it=201025755',
+	 'user_id': 123}
+2015-04-05 23:59:34+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.83/f4v/70/201025770.h264_1.040002010053E19DB62678FE9E2A73EC9DA58B-8363-BCED-0009-000236874770.f4v?key=49dcf91e71bb11297ffd9055215bcb0004d5d6b05b&playtype=2&tk=183835815301685810670722759&brt=2&bc=0&xid=040002010053E19DB62678FE9E2A73EC9DA58B-8363-BCED-0009-000236874770&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1483&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874770&fi=0&sz=4466929> (referer: None)
+2015-04-05 23:59:34+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025770> referred in <None>
+2015-04-05 23:59:34+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-1.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025770',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c2\u96c6'],
+	 'sound_id': u'2',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/5a481d6f30ddbff0abe92ddb56283fc51a3b815f/v2?it=201025770',
+	 'user_id': 123}
+2015-04-05 23:59:39+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.89/f4v/59/201025759.h264_1.040002010053E19D669795624B13D450345706-5C21-7EC8-E704-000236874533.f4v?key=8df02079eea69fdfa871a955215bc90004d5d6b05b&playtype=2&tk=142762920729369220570878600&brt=2&bc=0&xid=040002010053E19D669795624B13D450345706-5C21-7EC8-E704-000236874533&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2319&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874533&fi=0&sz=4491612> (referer: None)
+2015-04-05 23:59:39+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025759> referred in <None>
+2015-04-05 23:59:39+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-2.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025759',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c3\u96c6'],
+	 'sound_id': u'3',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/1fbbee7fb234f61f83707978cc3503c77870bc0d/v2?it=201025759',
+	 'user_id': 123}
+2015-04-05 23:59:43+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.92/f4v/38/201025738.h264_1.040002010053E19DC4C2D042D1CF46FA3B5C3D-CC58-5FFE-0E24-000236874867.f4v?key=ef43d9c9140c70bf0eaff655215bb40004d5d6b05b&playtype=2&tk=142762909734252942600877743&brt=2&bc=0&xid=040002010053E19DC4C2D042D1CF46FA3B5C3D-CC58-5FFE-0E24-000236874867&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1235&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874867&fi=0&sz=4355609> (referer: None)
+2015-04-05 23:59:43+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025738> referred in <None>
+2015-04-05 23:59:43+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-9.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025738',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c10\u96c6'],
+	 'sound_id': u'10',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/ac0408904621f7a6acb84170bbbbdaccfbd2ae90/v2?it=201025738',
+	 'user_id': 123}
+2015-04-05 23:59:46+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.10.177/f4v/56/201025756.h264_1.040002010053E19D38B9F5732674052A60B844-4033-6251-899D-000236874405.f4v?key=78c0c635158442b812ff0155215bc00004d5d6b05b&playtype=2&tk=142762887744020387200874258&brt=2&bc=0&xid=040002010053E19D38B9F5732674052A60B844-4033-6251-899D-000236874405&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=1233&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=&itemid=236874405&fi=0&sz=4523696> (referer: None)
+2015-04-05 23:59:46+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025756> referred in <None>
+2015-04-05 23:59:46+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-3.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025756',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c4\u96c6'],
+	 'sound_id': u'4',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/3de35cba1e6038a35c0e18ccd5aa8c5340aeb7ea/v2?it=201025756',
+	 'user_id': 123}
+2015-04-05 23:59:47+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.91/f4v/52/201025752.h264_1.040002010053E19D59CBB750E55247D74ACEF3-40C5-219E-3AD3-000236874506.f4v?key=7378af93685774ab355ede55215bbf0004d5d6b05b&playtype=2&tk=144204050619895223670016163&brt=2&bc=0&xid=040002010053E19D59CBB750E55247D74ACEF3-40C5-219E-3AD3-000236874506&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2321&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&itemid=236874506&fi=0&sz=3888293> (referer: None)
+2015-04-05 23:59:47+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025752> referred in <None>
+2015-04-05 23:59:47+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-5.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025752',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c6\u96c6'],
+	 'sound_id': u'6',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/554e0d81b3676b6d0b881bb2cd94a081d4928d74/v2?it=201025752',
+	 'user_id': 123}
+2015-04-05 23:59:48+0800 [tingshu] INFO: Crawled 148 pages (at 22 pages/min), scraped 44 items (at 19 items/min)
+2015-04-05 23:59:48+0800 [tingshu] DEBUG: Crawled (200) <GET http://124.14.8.88/f4v/39/201025739.h264_1.040002010053E19D3891E7B7AC154FF39727D4-D98D-1C6F-967B-000236874402.f4v?key=9268d1c547e1cd2c4d0ba055215bbb0004d5d6b05b&playtype=2&tk=142762942719601775950877751&brt=2&bc=0&xid=040002010053E19D3891E7B7AC154FF39727D4-D98D-1C6F-967B-000236874402&nt=0&nw=1&bs=0&ispid=25&rc=200&inf=12&si=un&npc=2318&pp=0&ul=2&mt=0&sid=95000&pc=0&cip=113.45.192.138&id=tudou&hf=0&hd=2&sta=0&ssid=0&cvid=null&itemid=236874402&fi=0&sz=4373721> (referer: None)
+2015-04-05 23:59:48+0800 [tingshu] DEBUG: mediafile (downloaded): Downloaded mediafile from <GET http://vr.tudou.com/v2proxy/v2?it=201025739> referred in <None>
+2015-04-05 23:59:48+0800 [tingshu] DEBUG: Scraped from <200 http://www.520tingshu.com/down/?11239-0-8.html>
+	{'downlink': 'http://vr.tudou.com/v2proxy/v2?it=201025739',
+	 'name': [u' \u9f99\u864e\u98ce\u4e91\u4f1a\u7eed\u96c6\u5b8c\u7ed3\u7b2c9\u96c6'],
+	 'sound_id': u'9',
+	 'sound_save_path': 'http://182.92.111.153/capture/xmly/sounds/2015-04-05/a2cc1fd82f243b403137dd7a3462f399fad8103c/v2?it=201025739',
+	 'user_id': 123}
+2015-04-05 23:59:48+0800 [tingshu] INFO: Closing spider (finished)
+2015-04-05 23:59:48+0800 [tingshu] INFO: Stored jsonlines feed (45 items) in: items/tingshu520/tingshu/13f48099dbac11e4b8e37cd1c3f840b3.jl
+2015-04-05 23:59:48+0800 [tingshu] INFO: Dumping Scrapy stats:
+	{'downloader/exception_count': 1,
+	 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 1,
+	 'downloader/request_bytes': 86073,
+	 'downloader/request_count': 224,
+	 'downloader/request_method_count/GET': 224,
+	 'downloader/response_bytes': 316397537,
+	 'downloader/response_count': 223,
+	 'downloader/response_status_count/200': 149,
+	 'downloader/response_status_count/302': 74,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 4, 5, 15, 59, 48, 586910),
+	 'item_scraped_count': 45,
+	 'log_count/DEBUG': 345,
+	 'log_count/ERROR': 29,
+	 'log_count/INFO': 13,
+	 'mediafile_file_count': 74,
+	 'mediafile_file_status_count/downloaded': 74,
+	 'request_depth_max': 1,
+	 'response_received_count': 149,
+	 'scheduler/dequeued': 75,
+	 'scheduler/dequeued/memory': 75,
+	 'scheduler/enqueued': 75,
+	 'scheduler/enqueued/memory': 75,
+	 'start_time': datetime.datetime(2015, 4, 5, 15, 54, 48, 334057)}
+2015-04-05 23:59:48+0800 [tingshu] INFO: Spider closed (finished)
